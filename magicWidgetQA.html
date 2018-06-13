@@ -60,13 +60,15 @@
           setTimeout(function(){
             $('#form').hide();
           }, 1000);
+
+          var clientPage = document.createElement('iframe');
+          clientPage.id = 'clientPage';
+          clientPage.src = queryParams["url"];
+          $(document).ready(function() {
+            document.body.appendChild(clientPage);
+          });
+
         }
-        clientPage = document.createElement('iframe');
-        clientPage.id = 'clientPage';
-        clientPage.src = queryParams["url"];
-        $(document).ready(function() {
-          document.body.appendChild(clientPage);
-        });
     </script>
   </head>
   <body>
@@ -75,6 +77,12 @@
         <legend>See how the Brazen widget looks in any site:</legend>
 
         <form action="#">
+
+          <!--script src="https://app.brazenconnect.com/js/brazen-chat-widget-loader.js"
+            id="brazenChatWidgetScript"
+            data-job-id="11078"
+            data-salesforce-id="6007">
+          </script-->
           Url: <input type="text" name="url"/><br/ >
           Salesforce ID: <input type="text" name="salesforceId"/><br />
           Type: <input type="radio" name="mode" value="event"/> Event <br />
@@ -86,4 +94,5 @@
       </fieldset>
     </div>
   </body>
+
 </html>
