@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Magic Widget page</title>
+    <style>
+      iframe#clientPage {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+
+      fieldset {
+        border: solid black 1px;
+      }
+    </style>
+
+
+    <!--script src="https://app.brazenconnect.com/js/brazen-chat-widget-loader.js"
+      id="brazenChatWidgetScript"
+      data-job-id="11078"
+      data-salesforce-id="6007">
+    </script-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous"></script>
+    <script>
+      function getQueryParams() {
+        var urlParams;
+        var match,
+            pl     = /\+/g,  // Regex for replacing addition symbol with a space
+            search = /([^&=]+)=?([^&]*)/g,
+            decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+            query  = window.location.search.substring(1);
+
+        urlParams = {};
+        while (match = search.exec(query)) {
+          urlParams[decode(match[1])] = decode(match[2]);
+        }
+        return urlParams;
+      }
+        var queryParams = getQueryParams();
+        if (queryParams["url"]) {
+          var scriptTag = document.createElement('script');
+          scriptTag.setAttribute("src", "https://app-qa.t.brazenconnect.com/js/brazen-chat-widget-loader.js");
+          scriptTag.setAttribute("id", "brazenChatWidgetScript");
+          scriptTag.setAttribute("data-salesforce-id", queryParams["salesforceId"]);
+          if (queryParams["mode"] == "job") {
+            scriptTag.setAttribute("data-mode", "job");
+            scriptTag.setAttribute("", queryParams["data-job-id"]);
+          }
+          else {
+            scriptTag.setAttribute("data-mode", "event");
+          }
+          document.head.appendChild(scriptTag);
+          setTimeout(
+            function(){
+              $('#form').hide();
+              $('#clientPage').show();
+              $('#clientPage').attr("src", queryParams["url"]);
+            }, 1000
+          );
+        }
+    </script>
+  </head>
+  <body>
+    <div id="form">
+      <fieldset>
+        <legend>See how the Brazen widget looks in any site:</legend>
+
+        <form action="#">
+
+          <!--script src="https://app.brazenconnect.com/js/brazen-chat-widget-loader.js"
+            id="brazenChatWidgetScript"
+            data-job-id="11078"
+            data-salesforce-id="6007">
+          </script-->
+          Url: <input type="text" name="url"/><br/ >
+          Salesforce ID: <input type="text" name="salesforceId"/><br />
+          Type: <input type="radio" name="mode" value="event"/> Event <br />
+          Type: <input type="radio" name="mode" value="job"/> Job <br />
+          Job ID: <input type="text" name="jobId"/> (required for Type Job)<br />
+
+          <input type="submit"/>
+        </form>
+      </fieldset>
+    </div>
+    <iframe id="clientPage" style="display: none;"/>
+  </body>
+
+</html>
