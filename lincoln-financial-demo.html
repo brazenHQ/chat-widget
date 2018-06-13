@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width">
     <title>Lincoln Financial Demo Job Posting</title>
     <style>
-      iframe.parent, .jobPostingScreenshot {
+      #jobPostingScreenshot {
         width: 100%;
         height: 100%;
         position: fixed;
         top: 0;
         left: 0;
+        
+        overflow-y: scroll;
+      }
+      #jobPostingScreenshot img {
+        width: 100%;
       }
     </style>
     
@@ -23,6 +28,8 @@
 </script>
   </head>
   <body>
-    <div id="jobPostingScreenshot"></div>
+    <div id="jobPostingScreenshot">
+      <img src="http://res.cloudinary.com/brazen/image/upload/v1528902543/lincolnfinancial_job_posting.png"/>
+    </div>
   </body>
 </html>
