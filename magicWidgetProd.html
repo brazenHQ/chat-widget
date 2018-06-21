@@ -12,6 +12,19 @@
         top: 0;
         left: 0;
       }
+      
+      #clientPageScreenShot {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+        overflow-y: scroll;
+      }
+      #clientPageScreenShot img {
+        width: 100%;
+      }
 
       fieldset {
         border: solid black 1px;
@@ -44,7 +57,7 @@
         return urlParams;
       }
         var queryParams = getQueryParams();
-        if (queryParams["url"]) {
+        if (queryParams["siteUrl"]) {
           var scriptTag = document.createElement('script');
           scriptTag.setAttribute("src", "https://app.brazenconnect.com/js/brazen-chat-widget-loader.js");
           scriptTag.setAttribute("id", "brazenChatWidgetScript");
@@ -63,10 +76,21 @@
 
           var clientPage = document.createElement('iframe');
           clientPage.id = 'clientPage';
-          clientPage.src = queryParams["url"];
+          clientPage.src = queryParams["siteUrl"];
           clientPage.frameBorder = '0';
           $(document).ready(function() {
             document.body.appendChild(clientPage);
+          });
+
+        }
+        if (queryParams["screenShotUrl"]) {
+          var clientPageScreenShotImg = document.createElement('img');
+          clientPageScreenShotImg.src = queryParams["screenShotUrl"];
+          var clientPageScreenShotWrapper = document.createElement('div');
+          clientPageScreenShotWrapper.id = 'clientPageScreenShot';
+          clientPageScreenShotWrapper.appendChild(clientPageScreenShotImg);
+          $(document).ready(function() {
+            document.body.appendChild(clientPageScreenShotWrapper);
           });
 
         }
@@ -78,7 +102,10 @@
         <legend>See how the Brazen widget looks in any site:</legend>
 
         <form action="#">
-          Url: <input type="text" name="url"/><br/ >
+          Site Url: <input type="text" name="siteUrl"/><br/ >
+          OR<br/>
+          Screenshot Url: <input type="text" name="screenShotUrl"/>
+          <hr/ >
           Salesforce ID: <input type="text" name="salesforceId"/><br />
           Type: <input type="radio" name="mode" value="event"/> Event <br />
           Type: <input type="radio" name="mode" value="job"/> Job <br />
