@@ -56,24 +56,25 @@
         }
         return urlParams;
       }
-        var queryParams = getQueryParams();
+      var queryParams = getQueryParams();
+      if (queryParams["siteUrl"] || queryParams["screenShotUrl"]) {
+        var scriptTag = document.createElement('script');
+        scriptTag.setAttribute("src", "https://app.brazenconnect.com/js/brazen-chat-widget-loader.js");
+        scriptTag.setAttribute("id", "brazenChatWidgetScript");
+        scriptTag.setAttribute("data-salesforce-id", queryParams["salesforceId"]);
+        if (queryParams["mode"] == "job") {
+          scriptTag.setAttribute("data-mode", "job");
+          scriptTag.setAttribute("", queryParams["data-job-id"]);
+        }
+        else {
+          scriptTag.setAttribute("data-mode", "event");
+        }
+        document.head.appendChild(scriptTag);
+        setTimeout(function(){
+          $('#form').hide();
+        }, 1000);
+        
         if (queryParams["siteUrl"]) {
-          var scriptTag = document.createElement('script');
-          scriptTag.setAttribute("src", "https://app.brazenconnect.com/js/brazen-chat-widget-loader.js");
-          scriptTag.setAttribute("id", "brazenChatWidgetScript");
-          scriptTag.setAttribute("data-salesforce-id", queryParams["salesforceId"]);
-          if (queryParams["mode"] == "job") {
-            scriptTag.setAttribute("data-mode", "job");
-            scriptTag.setAttribute("", queryParams["data-job-id"]);
-          }
-          else {
-            scriptTag.setAttribute("data-mode", "event");
-          }
-          document.head.appendChild(scriptTag);
-          setTimeout(function(){
-            $('#form').hide();
-          }, 1000);
-
           var clientPage = document.createElement('iframe');
           clientPage.id = 'clientPage';
           clientPage.src = queryParams["siteUrl"];
@@ -92,8 +93,15 @@
           $(document).ready(function() {
             document.body.appendChild(clientPageScreenShotWrapper);
           });
-
         }
+       }
+      else {
+        var error = document.createElement('h2');
+        error.innerText = "Page Cannot Load: need to have 'Site Url' or 'Screenshot Url'";
+        $(document).ready(function() {
+            document.body.appendChild(clientPageScreenShotWrapper);
+          });
+      }
     </script>
   </head>
   <body>
