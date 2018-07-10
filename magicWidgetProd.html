@@ -74,7 +74,7 @@
           clientPage.src = queryParams["siteUrl"];
           clientPage.frameBorder = '0';
           $(document).ready(function() {
-            document.body.appendChild(clientPage);
+            $("body").append(clientPage);
           });
 
         }
@@ -85,7 +85,7 @@
           clientPageScreenShotWrapper.id = 'clientPageScreenShot';
           clientPageScreenShotWrapper.appendChild(clientPageScreenShotImg);
           $(document).ready(function() {
-            document.body.appendChild(clientPageScreenShotWrapper);
+            $("body").append(clientPageScreenShotWrapper);
           });
         }
        }
@@ -93,8 +93,8 @@
         var error = document.createElement('h2');
         error.innerText = "Page Cannot Load: need to have 'Site Url' or 'Screenshot Url'";
         $(document).ready(function() {
-            document.body.appendChild(clientPageScreenShotWrapper);
-          });
+          $("body").append(clientPageScreenShotWrapper);
+        });
       }
     </script>
   </head>
