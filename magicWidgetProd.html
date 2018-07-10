@@ -64,7 +64,7 @@
         scriptTag.setAttribute("data-salesforce-id", queryParams["salesforceId"]);
         if (queryParams["mode"] == "job") {
           scriptTag.setAttribute("data-mode", "job");
-          scriptTag.setAttribute("", queryParams["data-job-id"]);
+          scriptTag.setAttribute("data-job-id", queryParams["data-job-id"]);
         }
         else {
           scriptTag.setAttribute("data-mode", "event");
