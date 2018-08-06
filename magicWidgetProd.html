@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Magic Widget page</title>
-    <style>
+    <style>      
       iframe#clientPage {
         width: 100%;
         height: 100%;
@@ -26,11 +26,21 @@
         width: 100%;
       }
 
+      //config screen
+      #configScreen {
+        font-family: 'Roboto', sans-serif;
+      }
+      
       fieldset {
         border: solid black 1px;
       }
+      
+      li {
+        margin-bottom: 16px;
+      }
     </style>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
             integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
             crossorigin="anonymous"></script>
@@ -105,7 +115,7 @@
         <li>Create the job you want to use in BCC.</li>
         <li>Go to "Edit Job" screen for that job.</li>
         <li>Look for "salesforceId" and "jobId" from the URL and fill the related input fields below.</li>
-        <li>f you want to show events in the plugin, assign the job to future events.</li>
+        <li>If you want to show events in the plugin, assign the job to future events.</li>
         <li>Make yourself a recruiter for that job.</li>
         <li>Go to HQ and make yourself available to chat.</li>
         <li>Find your background site URL, make sure it's using https instead of http. Using a full page screenshot instead of using the site URL is highly recommended. Fill the related input field below.</li>
@@ -113,7 +123,7 @@
         <li>Make sure you test the page and live chat prior to demo. DON'T use the same user and same browser window to test live chat. Please use the incognito window for the plugin.</li>
         <li>Contact the on-call developer if you have problems.</li>  
       </ol>    
-
+      <hr/>
       <div id="form">
         <fieldset>
           <legend>See how the Brazen widget looks in any site:</legend>
