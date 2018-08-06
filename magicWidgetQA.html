@@ -18,12 +18,6 @@
       }
     </style>
 
-
-    <!--script src="https://app.brazenconnect.com/js/brazen-chat-widget-loader.js"
-      id="brazenChatWidgetScript"
-      data-job-id="11078"
-      data-salesforce-id="6007">
-    </script-->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
@@ -51,7 +45,7 @@
           scriptTag.setAttribute("data-salesforce-id", queryParams["salesforceId"]);
           if (queryParams["mode"] == "job") {
             scriptTag.setAttribute("data-mode", "job");
-            scriptTag.setAttribute("", queryParams["data-job-id"]);
+            scriptTag.setAttribute("", queryParams["data-brazen-job-id"]);
           }
           else {
             scriptTag.setAttribute("data-mode", "event");
@@ -77,17 +71,11 @@
         <legend>See how the Brazen widget looks in any site:</legend>
 
         <form action="#">
-
-          <!--script src="https://app.brazenconnect.com/js/brazen-chat-widget-loader.js"
-            id="brazenChatWidgetScript"
-            data-job-id="11078"
-            data-salesforce-id="6007">
-          </script-->
           Url: <input type="text" name="url"/><br/ >
           Salesforce ID: <input type="text" name="salesforceId"/><br />
           Type: <input type="radio" name="mode" value="event"/> Event <br />
           Type: <input type="radio" name="mode" value="job"/> Job <br />
-          Job ID: <input type="text" name="jobId"/> (required for Type Job)<br />
+          Job ID: <input type="text" name="brazenJobId"/> (required for Type Job)<br />
 
           <input type="submit"/>
         </form>
