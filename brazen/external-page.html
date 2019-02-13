@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>External page holder for the plugin</title>
+
+    <style>
+        body {
+            display: flex;
+        }
+
+        #fakeJobDesc {
+            flex: 0 0 66%;
+        }
+
+        #sidenav {
+            flex: 0 0 33%;
+        }
+
+        #zomboicon {
+            height: 32px;
+            width: 32px;
+            vertical-align: top;
+        }
+
+        #config form:first-child {
+            margin-top: 0;
+        }
+
+        #config form > div {
+            margin-top: 10px;
+        }
+
+        div.plugin-mode div:before {
+            content: 'Mode:';
+            visibility: hidden;
+        }
+
+        div.plugin-mode div:first-of-type:before {
+            visibility: visible;
+        }
+
+        div.environment div:before {
+            content: 'Env:';
+            visibility: hidden;
+        }
+
+        div.environment div:first-of-type:before {
+            visibility: visible;
+        }
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+
+</head>
+<body>
+<div id="fakeJobDesc">
+    <div role="application" tabindex="-1" id="job-area">
+        <h1 role="heading" tabindex="0" style="">
+            <svg version="1.1" id="zomboicon" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 x="0px" y="0px" width="100px" height="100px"
+                 viewBox="5.02 -3.954 150 150"
+                 enable-background="new 5.02 -3.954 150 150" xml:space="preserve">
+            <g id="spinner" transform="rotate(320, 81, 69)">
+                <g transform="matrix(1.000,0.000,0.000,1.000,-84.150,-14.450)">
+                    <g>
+                        <path opacity="0.122" fill="#00FF00"
+                              d="M152.151,71.151c2.073-0.69,3.888-1.727,5.442-3.107h0.13                             c1.556-1.38,2.807-3.063,3.757-5.047c1.988-4.054,2.247-8.196,0.778-12.423c-1.469-4.228-4.19-7.334-8.164-9.318l-12.312-0.647                             c-4.321,1.381-7.43,4.099-9.331,8.153c-1.987,3.969-2.247,8.111-0.778,12.424c1.383,4.141,4.104,7.204,8.166,9.188                             C143.814,72.358,147.918,72.617,152.151,71.151"/>
+                    </g>
+                    <path fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="round"
+                          stroke-linejoin="round" d="M157.593,68.044h0.13"/>
+                    <g>
+                        <path opacity="0.122" fill="#1A24E6"
+                              d="M175.867,41.386l-5.572,3.235c-1.556,1.38-2.766,3.019-3.63,4.917                             c-1.987,3.969-2.247,8.067-0.777,12.294c1.123,3.192,2.98,5.781,5.572,7.765l2.592,1.553c3.974,1.984,8.078,2.242,12.311,0.776                             c4.234-1.466,7.344-4.185,9.331-8.153l1.685-5.954l-0.907-6.471c-1.468-4.228-4.19-7.289-8.164-9.188                             C184.247,40.177,180.1,39.918,175.867,41.386"/>
+                    </g>
+                    <g>
+                        <path opacity="0.122" fill="#F2FE01"
+                              d="M125.194,69.467c-4.233,1.467-7.343,4.229-9.33,8.283                             c-1.988,3.969-2.246,8.067-0.778,12.294c1.47,4.228,4.233,7.333,8.295,9.318c3.974,1.898,8.078,2.157,12.311,0.776l0.648-0.259                             c3.888-1.552,6.782-4.228,8.683-8.022c1.296-2.676,1.856-5.436,1.685-8.283l-0.907-4.011c-1.296-3.625-3.456-6.385-6.48-8.283                             l-1.815-1.035C133.532,68.26,129.428,68.001,125.194,69.467"/>
+                    </g>
+
+                    <radialGradient id="SVGID_1_" cx="69.1842" cy="587.5672" r="2.5933" fx="67.8876" fy="586.2706"
+                                    gradientTransform="matrix(12.5645 0 0 -12.5182 -705.0267 7439.6914)"
+                                    gradientUnits="userSpaceOnUse">
+                        <stop offset="0" style="stop-color:#FFFFFF"/>
+                        <stop offset="1" style="stop-color:#CCCCCC"/>
+                    </radialGradient>
+                    <path fill="url(#SVGID_1_)"
+                          d="M149.688,77.232c-1.037,1.984-1.598,4.056-1.684,6.213v0.129c-0.174,1.984,0.129,4.012,0.907,6.083                         c1.208,3.623,3.369,6.428,6.479,8.412l1.685,0.906c4.06,1.898,8.207,2.156,12.44,0.776c4.233-1.554,7.301-4.313,9.202-8.283                         c1.037-2.156,1.641-4.313,1.813-6.471l-0.907-5.824c-1.468-4.313-4.233-7.418-8.293-9.316c-3.974-1.984-8.078-2.243-12.312-0.777                         l-0.648,0.259C154.397,70.804,151.503,73.437,149.688,77.232"/>
+                    <path fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="round"
+                          stroke-linejoin="round" d="M148.004,83.445v0.129                         "/>
+                    <g>
+                        <path opacity="0.122" fill="#E75303"
+                              d="M162.388,120.456c0.95-2.07,1.469-4.098,1.555-6.083v-0.128                             c0.086-2.071-0.216-4.142-0.907-6.212c-1.468-4.228-4.19-7.291-8.164-9.189c-3.974-1.984-8.079-2.243-12.312-0.776l-5.572,3.105                             c-1.556,1.382-2.809,3.063-3.759,5.048c-1.987,3.968-2.247,8.067-0.777,12.294c1.468,4.228,4.233,7.334,8.293,9.318                             c3.975,1.984,8.078,2.243,12.312,0.776C157.291,127.143,160.401,124.425,162.388,120.456"/>
+                    </g>
+                    <path fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="round"
+                          stroke-linejoin="round" d="M163.943,114.373                         v-0.128"/>
+                    <g>
+                        <path opacity="0.122" fill="#E90101"
+                              d="M175.996,98.844c-4.319,1.382-7.473,4.099-9.46,8.153                             c-1.123,2.331-1.685,4.703-1.685,7.118c0,1.726,0.345,3.494,1.036,5.307c1.382,4.228,4.104,7.334,8.165,9.318                             c3.974,1.984,8.078,2.242,12.311,0.776c4.234-1.466,7.344-4.228,9.331-8.283c1.987-4.054,2.247-8.196,0.777-12.423                             c-1.209-3.364-3.196-5.995-5.961-7.894l-2.203-1.294C184.247,97.637,180.143,97.378,175.996,98.844"/>
+                    </g>
+                    <g>
+                        <path opacity="0.122" fill="#1B02FD"
+                              d="M183.383,78.656c-1.037,1.984-1.599,4.011-1.685,6.083v0.129                             c-0.173,1.984,0.129,4.054,0.907,6.211c1.468,4.227,4.233,7.334,8.293,9.318c3.974,1.898,8.078,2.158,12.312,0.776                             c4.233-1.466,7.344-4.227,9.331-8.281c1.901-3.97,2.117-8.067,0.648-12.295c-1.47-4.227-4.19-7.333-8.165-9.318                             c-4.061-1.984-8.208-2.243-12.441-0.775C188.35,71.97,185.284,74.687,183.383,78.656"/>
+                    </g>
+                    <path fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="round"
+                          stroke-linejoin="round" d="M181.698,84.739v0.129                         "/>
+                </g>
+            </g>
+            </svg>
+            Zombocom Appreciator
+        </h1>
+        <div style="font-size: 14px">
+        <span class="job-desc margin-right-10" tabindex="0">
+            <i class="material-icons">place</i>Zombocom city, Zimbabwe
+        </span>
+            <span class="job-desc margin-right-10" tabindex="0">
+            <i class="material-icons">work</i>Full Time
+        </span>
+        </div>
+        <div id="job-description" tabindex="-1">
+            <div id="lipsum">
+                <p><em>Welcome ... to ZomboCom. This ... is ... ZomboCom. Welcome. This is ZomboCom; welcome ... to ZomboCom. You can do anything at ZomboCom. Anything at all. The only limit is yourself. Welcome ... to ZomboCom.</em></p>
+            </div>
+            <h2>Don't Panic</h2>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu diam et dolor accumsan aliquet. In elementum justo in fringilla laoreet. Nulla varius, tellus ac consectetur tristique, ex odio venenatis ligula, a scelerisque tortor tellus a enim. Sed scelerisque posuere tellus a vulputate. Nunc aliquet ultrices elit, quis facilisis lectus convallis eu. Nulla elementum massa in tortor dictum molestie. Mauris posuere odio et augue convallis, sed tempor ante eleifend. Duis a lacus tortor. Quisque dapibus ornare magna, in pharetra ante fringilla non. Nulla pellentesque ornare lectus sed pulvinar. Maecenas cursus ligula eget ipsum commodo congue. <br />
+                <p><em>Welcome ... to ZomboCom. This is ... ZomboCom. Welcome ... to ZomboCom! This is ZomboCom, welcome! Yes ... This ... is ZomboCom.</em></p>
+                <p>Vivamus luctus mattis posuere. Quisque vehicula, metus a mattis faucibus, libero erat condimentum neque, id vestibulum diam est quis urna. Integer vestibulum magna eget est ornare lacinia. Nulla auctor interdum leo sed sollicitudin. Curabitur a scelerisque turpis, eget facilisis orci. Curabitur pellentesque sapien lorem, non imperdiet dolor volutpat sit amet. Praesent at nisl sed neque tincidunt mollis. Donec vitae diam luctus ex accumsan vestibulum ac ut dolor. Suspendisse at imperdiet augue, sit amet sodales tortor. Phasellus scelerisque orci at lectus sodales fermentum. Aenean at nulla euismod, pharetra eros ut, pretium ligula. Curabitur euismod eu mi vel posuere. Vivamus elit purus, eleifend ac nisi et, luctus condimentum nunc.</p>
+                <p>Pellentesque rhoncus leo condimentum, egestas nisi at, malesuada dui. Fusce hendrerit vehicula odio aliquet ullamcorper. Maecenas risus sapien, maximus sed lacus vitae, sollicitudin porttitor mi. Mauris a bibendum nibh. Cras dapibus, tellus vitae tempor egestas, orci lacus interdum justo, sed bibendum elit nisi ac eros. Aenean mollis odio vel laoreet accumsan. Aenean sodales finibus efficitur.</p>
+                <p class="list_F">Etiam lobortis id nulla non accumsan. Praesent scelerisque nisl in massa laoreet placerat. Quisque vulputate nec tellus elementum egestas. Donec a justo sed neque laoreet convallis. Suspendisse interdum fringilla posuere. Vestibulum lobortis tincidunt nibh, sit amet aliquam leo convallis ac. Quisque tincidunt dolor ante, tristique pharetra metus condimentum ac. Morbi iaculis mattis ex, sit amet pellentesque augue vulputate vitae. Donec tempus cursus mauris vel maximus. Maecenas ut sem tortor. Praesent fringilla arcu eu augue consectetur accumsan. Vivamus viverra condimentum augue, sit amet bibendum nisi efficitur sit amet. Pellentesque molestie euismod vehicula. Mauris sed mi massa. Donec pretium ipsum in vestibulum gravida.</p>
+                <h2 class="list_F">Agrajag</h2>
+                <ul>
+                    <li>A dog in Dirk Gently’s Holistic Detective Agency Television Show.</li>
+                    <li>Flies, swatted by Arthur.</li>
+                    <li>A rabbit that Arthur hit with a flint.</li>
+                    <li>Newts that Arthur stepped on.</li>
+                    <li>An oyster Arthur ate live.</li>
+                    <li>A cow that Arthur ate a fillet of.</li>
+                    <li>Ants that Arthur stepped on.</li>
+                    <li>A fish caught by Arthur, but he then decided he didn't like and left on the side of the plate.</li>
+                    <li>Arthur Philip Deodat, a man at a cricket match who had a heart attack when Arthur and Ford materialized on the field chasing a sofa.</li>
+                    <li>A man at the club Beta, owned by Stavro Mueller, where he gets hit with a bullet Arthur dodged.</li>
+                    <li>A bowl of petunias, which came into existence (and thus died) at Arthur's hand after activating the Infinite Improbability Drive</li>
+                    <li>Fleas he picked out of his hair.</li>
+                    <li>The NowWhattian BogHog who was killed when Arthur visited NowWhat.</li>
+                </ul>
+                <p>Quisque eleifend fringilla ex, nec elementum mi iaculis sed. Pellentesque malesuada laoreet turpis ac pellentesque. Duis maximus felis orci, sit amet tincidunt tortor placerat congue. Mauris cursus a quam eget finibus. Phasellus condimentum felis ut velit ornare, a sagittis odio vestibulum. Ut id odio et sem eleifend gravida. Aliquam est libero, feugiat sed viverra a, rutrum at velit. Duis eu magna massa. Etiam eget mollis nunc. Ut libero nulla, efficitur quis urna ac, posuere viverra neque. Phasellus quis metus dolor.</p>
+                <em>This is ZomboCom! And welcome to you, who have come to ZomboCom. Anything ... is possible ... at ZomboCom. You can do ... anything at ZomboCom. The infinite is possible at ZomboCom. The unattainable is unknown at ZomboCom. Welcome to ZomboCom. This ... is ZomboCom.</em>
+                <p><em>Welcome to ZomboCom. Welcome. This ... is ... ZomboCom. Welcome ... to ZomboCom! Welcome ... to ZomboCom.</em></p>
+                <p>
+                    <h1>Enabling mixed content</h1>
+                    <a href="https://support.mozilla.org/en-US/kb/mixed-content-blocking-firefox#w_unblock-mixed-content">
+                        Firefox
+                    </a>
+                    <br/>
+                    <a href="https://productforums.google.com/d/msg/chrome/OrwppKWbKnc/j9fJet-Te30J">
+                        Chrome
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="sidenav">
+    <fieldset id="config">
+        <legend>Change the plugin</legend>
+
+        <form action="#">
+            <div>
+                Salesforce ID<br/>
+                <input type="text" name="salesforceId"/>
+            </div>
+
+            <div class="plugin-mode">
+                <div>
+                    <input type="radio" name="mode" value="EVENT"/> Event
+                </div>
+                <div>
+                    <input type="radio" name="mode" value="JOB"/> Job
+                </div>
+            </div>
+            <div>
+                Brazen's Job ID<br/>
+                <input type="text" name="brazenJobId"/>
+            </div>
+            <div>
+                Reference number (maps to id query param)<br/>
+                <input type="text" name="id"/>
+            </div>
+
+            <div class="environment">
+                <div>
+                    <input type="radio" name="env" value="qa"/> QA
+                </div>
+                <div>
+                    <input type="radio" name="env" value="local"/> Local
+                </div>
+            </div>
+
+            <input type="submit"/>
+        </form>
+    </fieldset>
+
+    <fieldset id="messages">
+        <legend>Messages</legend>
+
+        <div id="warnings"></div>
+
+        <div id="errors"></div>
+
+        <div id="success"></div>
+    </fieldset>
+</div>
+
+<script>
+
+    // logo
+    function getStartRotateSpinner(increment, timeout) {
+        var spinner = document.getElementById('spinner');
+        return function(degree)
+        {
+            spinner.setAttribute('transform', 'rotate(' + degree + ', 81,69)');
+            f = arguments.callee;
+            setTimeout(
+                    function(){f(degree+increment%360)},
+                    timeout
+            );
+        }
+    }
+
+    (function() {
+        // this code is inside a function so it does not leak variables to the outside
+        var num = Math.floor(Math.random() * Math.floor(2));
+        if (num === 0) {
+            startRotateSpinner = getStartRotateSpinner(60, 2000);
+        } else {
+            startRotateSpinner = getStartRotateSpinner(1, 250);
+        }
+        startRotateSpinner(0);
+    })();
+    // /logo
+
+    function getQueryParams()
+    {
+        var queryParams = {};
+        window.location.search.replace(
+                /[?&]+([^=&]+)=([^&]*)/gi,
+                function (str, key, value) {
+                    queryParams[key] = value;
+                }
+        );
+        return queryParams;
+    }
+
+    // form population
+
+    var populateField = function() {
+        var queryParams = getQueryParams();
+        var form = document.getElementsByTagName('form')[0];
+
+        return function (fieldName, defaultValue) {
+            var queryParamValue = queryParams[fieldName];
+
+            if (queryParamValue === undefined) {
+                form[fieldName].value = defaultValue;
+            } else {
+                form[fieldName].value = queryParamValue;
+            }
+        }
+    }();
+
+    populateField('salesforceId', '66666');
+    populateField('mode', 'JOB');
+    populateField('brazenJobId', '');
+    populateField('id', '');
+    populateField('env', 'qa');
+
+    // /form population
+
+
+    function isEmpty(value)
+    {
+        return value === undefined || value === '';
+    }
+
+    // plugin tag generation
+    (function() {
+        // this code is inside a function so it does not leak variables to the outside
+        var form = document.getElementsByTagName('form')[0];
+        var warnings = [];
+        var errors = [];
+        var success = [];
+
+        var salesforceId = form['salesforceId'].value;
+        var env = form['env'].value;
+        var mode = form['mode'].value;
+        var brazenJobId = form['brazenJobId'].value;
+        var referenceNumber = form['id'].value;
+
+        if (isEmpty(salesforceId)) {
+            errors.push('Unable to retrieve salesforceId.');
+        }
+
+        if (isEmpty(mode)) {
+            errors.push('Unable to retrieve plugin mode.');
+        }
+
+        if (mode === 'EVENT') {
+            if (!isEmpty(brazenJobId)) {
+                warnings.push('Brazen\'s job id ignored for EVENT mode.');
+                brazenJobId = undefined;
+            }
+            if (!isEmpty(referenceNumber)) {
+                warnings.push('Reference number ignored for EVENT mode.');
+                referenceNumber = undefined;
+            }
+        } else {
+            if (!isEmpty(brazenJobId) && !isEmpty(referenceNumber)) {
+                warnings.push('Brazen\'s job id and reference number defined in JOB mode. Ignoring Brazen job id.');
+                brazenJobId = undefined;
+            }
+        }
+
+        if (env === 'local') {
+            var url = 'http://app-local.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+            warnings.push('Using local mode. You\'ll need to load mixed content. Check the bottom of the page to know how.');
+        } else {
+            var url = 'https://app-qa.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+        }
+
+        if (errors.length === 0) {
+            var scriptTag = document.createElement('script');
+            scriptTag.setAttribute('src', url);
+            scriptTag.setAttribute('id', 'brazenChatWidgetScript');
+            scriptTag.setAttribute('data-salesforce-id', salesforceId);
+            scriptTag.setAttribute('data-mode', mode);
+
+            if (!isEmpty(referenceNumber)) {
+                scriptTag.setAttribute('data-job-code', referenceNumber);
+            } else if (!isEmpty(brazenJobId)) {
+                scriptTag.setAttribute('data-brazen-job-id', brazenJobId);
+            }
+
+            document.body.append(scriptTag);
+        }
+
+        if (warnings.length === 0 && errors.length === 0) {
+            success.push('\\o/');
+        }
+
+        function displayMessages(id, messages) {
+            var div = document.getElementById(id);
+            var ul = document.createElement('ul');
+            messages.forEach(function(message) {
+                var li = document.createElement('li');
+                li.textContent = message;
+                ul.append(li);
+            });
+            div.append(ul);
+        }
+
+        displayMessages('success', success);
+        displayMessages('warnings', warnings);
+        displayMessages('errors', errors);
+
+
+    }());
+</script>
+
+</body>
+
+</html>
+
