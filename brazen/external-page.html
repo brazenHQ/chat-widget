@@ -188,7 +188,7 @@
                 <input type="text" name="brazenJobId"/>
             </div>
             <div>
-                Reference number (maps to id query param)<br/>
+                Reference number<br/>
                 <input type="text" name="id"/>
             </div>
 
@@ -276,7 +276,7 @@
     populateField('salesforceId', '66666');
     populateField('mode', 'JOB');
     populateField('brazenJobId', '');
-    populateField('id', '');
+    populateField('referenceNumber', '');
     populateField('env', 'qa');
 
     // /form population
@@ -299,7 +299,7 @@
         var env = form['env'].value;
         var mode = form['mode'].value;
         var brazenJobId = form['brazenJobId'].value;
-        var referenceNumber = form['id'].value;
+        var referenceNumber = form['referenceNumber'].value;
 
         if (isEmpty(salesforceId)) {
             errors.push('Unable to retrieve salesforceId.');
