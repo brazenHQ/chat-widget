@@ -63,17 +63,5 @@
          &lt;p&gt;&amp; &lt;--- this should be rendered as an amperstand.&lt;p&gt;
       </description>
    </job>
-    <job>
-      <title>Zombocom Appreciator2</title>
-      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
-      <referencenumber>66666-424243</referencenumber>
-      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?source=66666-424243</url>
-      <country>US></country>
-      <postalCode>46032</postalCode>
-      <description>
-         &lt;h1&gt;This is a small description&lt;/h1&gt;
-         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
-         &lt;p&gt;&amp; &lt;--- this should be rendered as an amperstand.&lt;p&gt;
-      </description>
-   </job>
+    
 </source>
