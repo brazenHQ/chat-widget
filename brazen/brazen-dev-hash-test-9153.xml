@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  - This is a human readable version of the XML file that Brazen can ingest jobs with
+  - When importing this feed, the Job Feed Query Parameter should be set to id.
+  -->
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Brazen Dev Feed (9153)</publisher>
+   <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
+   <lastBuildDate>Wed, 13 Feb 2019 18:03:01 GMT</lastBuildDate>
+
+   <!--
+     - This is an example of all the fields read for a job.
+     -
+     - For Brazen developers:
+     - Please do not delete this job. You will be punched if you delete this job. You were warned.
+     - You can add more below this one and delete any of those.
+     -->
+   <job>
+      <title><![CDATA[Zombocom Appreciator]]></title>
+      <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
+      <referencenumber><![CDATA[9153-1]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html]]></url>
+      <company><![CDATA[Zombocom]]></company>
+      <city><![CDATA[Zombo City]]></city>
+      <state><![CDATA[WY]]></state>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[46032]]></postalCode>
+      <description><![CDATA[
+         <h1>This is a small description</h1>
+         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
+         <p>Had this been outside a CDATA section, tags should be escaped.<p>
+         <p>&amp; <--- this should be rendered as an amperstand followed by the text 'amp;'.<p>
+      ]]></description>
+      <salary><![CDATA[Non negotiable as in non existing]]></salary>
+      <education><![CDATA[None]]></education>
+      <jobType><![CDATA[Insalubrious]]></jobType>
+      <category><![CDATA[Appreciator]]></category>
+      <experience><![CDATA[None]]></experience>
+      <recruiterEmails>
+         <recruiterEmail><![CDATA[test-user@brazen.com]]></recruiterEmail>
+      </recruiterEmails>
+   </job>
+
+   <!--
+     - This is a simpler job, with the minimal content required.
+     - Notice that it does not use CDATA sections.
+     - Be very careful when doing this because it may have unwanted consequences.
+     -
+     - For Brazen developers:
+     - I'd be pleased if this job is not removed.
+     - When you create a job here, make the id in the URL match the referenceNumber.
+     -->
+   <job>
+      <title>Zombocom Appreciator</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>9153-424242</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?source=9153-424242</url>
+      <country>US></country>
+      <postalCode>46032</postalCode>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt;--- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+   
+    <job>
+      <title><![CDATA[Zombocom Appreciator - With a recruiter!]]></title>
+      <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
+      <referencenumber><![CDATA[9153-1]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?source=9153-recruiter]]></url>
+      <company><![CDATA[Zombocom]]></company>
+      <city><![CDATA[Zombo City]]></city>
+      <state><![CDATA[WY]]></state>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[46032]]></postalCode>
+      <description><![CDATA[
+         <h1>This is a small description</h1>
+         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
+         <p>Had this been outside a CDATA section, tags should be escaped.<p>
+         <p>&amp; <--- this should be rendered as an amperstand followed by the text 'amp;'.<p>
+      ]]></description>
+      <salary><![CDATA[Non negotiable as in non existing]]></salary>
+      <education><![CDATA[None]]></education>
+      <jobType><![CDATA[Insalubrious]]></jobType>
+      <category><![CDATA[Appreciator]]></category>
+      <experience><![CDATA[None]]></experience>
+      <recruiterEmails>
+         <recruiterEmail><![CDATA[kevin.caniano@brazen.com]]></recruiterEmail>
+         <recruiterEmail><![CDATA[andre@brazen.com]]></recruiterEmail>
+      </recruiterEmails>
+   </job>
+</source>
