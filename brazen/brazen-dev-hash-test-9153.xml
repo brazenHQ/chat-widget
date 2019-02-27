@@ -86,8 +86,7 @@
       <category><![CDATA[Appreciator]]></category>
       <experience><![CDATA[None]]></experience>
       <recruiterEmails>
-         <recruiterEmail><![CDATA[kevin.caniano@brazen.com]]></recruiterEmail>
-         <recruiterEmail><![CDATA[andre@brazen.com]]></recruiterEmail>
+         <recruiterEmail><![CDATA[test-user@brazen.com]]></recruiterEmail>
       </recruiterEmails>
    </job>
 </source>
