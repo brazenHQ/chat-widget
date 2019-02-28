@@ -6,7 +6,7 @@
 <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
    <publisher>Manisha test job feed (66666)</publisher>
    <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
-   <lastBuildDate>Wed, 13 Feb 2019 18:03:01 GMT</lastBuildDate>
+   <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
 
    <!--
      - This is an example of all the fields read for a job.
@@ -93,7 +93,7 @@
   
    <job>
       <title><![CDATA[Job Test]]></title>
-      <date><![CDATA[Wed, 27 Feb 2019 18:03:01 GMT]]></date>
+      <date><![CDATA[Wed, 28 Feb 2019 18:03:01 GMT]]></date>
       <referencenumber><![CDATA[66666-3]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?source=66666-3]]></url>
       <company><![CDATA[Brazen]]></company>
