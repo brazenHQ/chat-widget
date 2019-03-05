@@ -115,6 +115,7 @@
       <recruiterEmails>
          <recruiterEmail><![CDATA[test-user@brazen.com]]></recruiterEmail>
         <recruiterEmail><![CDATA[kevin.caniano+66666rec@brazen.com]]></recruiterEmail>
+        <recruiterEmail><![CDATA[dontmakethisuserarecruiter@brazen.com]]></recruiterEmail>
       </recruiterEmails>
    </job>
    
