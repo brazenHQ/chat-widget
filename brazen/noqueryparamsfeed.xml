@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Some account (888888)</publisher>
+   <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
+   <lastBuildDate>Wed, 6 Mar 2019 18:03:01 GMT</lastBuildDate>
+
+   <job>
+      <title><![CDATA[Acme Example]]></title>
+      <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
+      <referencenumber><![CDATA[888888-NoParams]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/noqueryparams.html]]></url>
+      <company><![CDATA[Acme]]></company>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[12345]]></postalCode>
+      <description><![CDATA[
+         <h1>This is a small description</h1>
+      ]]></description>
+   </job>
+
+</source>
