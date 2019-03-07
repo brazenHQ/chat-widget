@@ -72,7 +72,7 @@
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?source=66666-2]]></url>
       <company><![CDATA[Zombocom]]></company>
       <city><![CDATA[Zombo City]]></city>
-      <state><![CDATA[WY]]></state>
+      <state><![CDATA[MD]]></state>
       <country><![CDATA[US]]></country>
       <postalCode><![CDATA[22202]]></postalCode>
       <description><![CDATA[
@@ -117,6 +117,33 @@
         <recruiterEmail><![CDATA[kevin.caniano+66666rec@brazen.com]]></recruiterEmail>
         <recruiterEmail><![CDATA[dontmakethisuserarecruiter@brazen.com]]></recruiterEmail>
         <recruiterEmail><![CDATA[makearecruiter@brazen.com]]></recruiterEmail>
+      </recruiterEmails>
+   </job>
+  
+    <!-- Use this job to test the source hash -->
+     <job>
+      <title><![CDATA[Job to Add]]></title>
+      <date><![CDATA[Wed, 28 Feb 2019 18:03:01 GMT]]></date>
+      <referencenumber><![CDATA[66666-2]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?source=66666-2]]></url>
+      <company><![CDATA[Zombocom]]></company>
+      <city><![CDATA[Zombo City]]></city>
+      <state><![CDATA[WY]]></state>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[12345]]></postalCode>
+      <description><![CDATA[
+         <h1>This is a small description</h1>
+         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
+         <p>Had this been outside a CDATA section, tags should be escaped.<p>
+         <p>&amp; <--- this should be rendered as an amperstand followed by the text 'amp;'.<p>
+      ]]></description>
+      <salary><![CDATA[Non negotiable as in non existing]]></salary>
+      <education><![CDATA[None]]></education>
+      <jobType><![CDATA[Insalubrious]]></jobType>
+      <category><![CDATA[Appreciator]]></category>
+      <experience><![CDATA[None]]></experience>
+      <recruiterEmails>
+         <recruiterEmail><![CDATA[test-user@brazen.com]]></recruiterEmail>
       </recruiterEmails>
    </job>
    
