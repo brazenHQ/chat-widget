@@ -38,6 +38,7 @@
       <experience><![CDATA[None]]></experience>
       <recruiterEmails>
          <recruiterEmail><![CDATA[test-user@brazen.com]]></recruiterEmail>
+         <recruiterEmail><![CDATA[kevin.caniano+qarec@brazen.com]]></recruiterEmail>
       </recruiterEmails>
    </job>
 
@@ -117,6 +118,7 @@
         <recruiterEmail><![CDATA[kevin.caniano+66666rec@brazen.com]]></recruiterEmail>
         <recruiterEmail><![CDATA[dontmakethisuserarecruiter@brazen.com]]></recruiterEmail>
         <recruiterEmail><![CDATA[makearecruiter@brazen.com]]></recruiterEmail>
+        <recruiterEmail><![CDATA[kevin.caniano+qarec@brazen.com]]></recruiterEmail>
       </recruiterEmails>
   </job>
   <job>
