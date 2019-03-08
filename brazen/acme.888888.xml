@@ -46,7 +46,7 @@ https://brazenhq.github.io/chat-widget/brazen/external-page.html?salesforceId=99
 </description>
 <recruiteremails>
 <recruiteremail>
-<![DATA[tom+accountuser01@brazen.com]]>
+<![CDATA[tom+accountuser01@brazen.com]]>
 </recruiteremail>
 </recruiteremails>
 </job>
