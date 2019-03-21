@@ -157,10 +157,7 @@
       <country><![CDATA[US]]></country>
       <postalCode><![CDATA[22202]]></postalCode>
       <description><![CDATA[
-         <h1>This is a small description</h1>
-         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
-         <p>Had this been outside a CDATA section, tags should be escaped.<p>
-         <p>&amp; <--- this should be rendered as an amperstand followed by the text 'amp;'.<p>
+          A Brand new description!
       ]]></description>
       <salary><![CDATA[Non negotiable as in non existing]]></salary>
       <education><![CDATA[None]]></education>
