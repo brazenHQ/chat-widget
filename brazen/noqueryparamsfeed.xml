@@ -16,5 +16,19 @@
          <h1>This is a small description</h1>
       ]]></description>
    </job>
+   
+   
+   <job>
+      <title><![CDATA[Acme Example]]></title>
+      <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
+      <referencenumber><![CDATA[888888-NoParams1]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/noqueryparams.html?source=adskakmdla]]></url>
+      <company><![CDATA[Acme]]></company>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[12345]]></postalCode>
+      <description><![CDATA[
+         <h1>This is a small description</h1>
+      ]]></description>
+   </job>
 
 </source>
