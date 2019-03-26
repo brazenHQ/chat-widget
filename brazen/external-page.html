@@ -391,11 +391,10 @@
             var url = 'http://app-local.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
             warnings.push(
                     'Using local mode. You\'ll need to load mixed content. Check the bottom of the page to know how.');
-        else
-            if (env === 'production')
-            {
+        }
+        else if (env === 'production')
+        {
                 var url = 'https://app.brazenconnect.com/js/brazen-chat-widget-loader.js';
-            }
         }
         else
         {
