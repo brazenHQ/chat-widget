@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<source xmlns="http://brazen.com/jobs/">
+  <publisher>Brazen Technologies</publisher>
+  <publisherurl>https://brazen.theresumator.com/</publisherurl>
+  <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
+  
+  <job>
+    <TITLE>Lead/Senior Quality Assurance Engineer</TITLE> <!--Randomly capitalized for no good reason-->
+    <date>2019-01-28T07:53:26</date>
+    <referencenumber>987654321</referencenumber>
+    <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/LeadSenior-Quality-Assurance-Engineer</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description><![CDATA[*** A new job ***]]></description>
+    <category>Engineering</category>
+    <recruiteremails><recruiteremail>
+        drew@brazen.com
+        mike.weiner+recruiter1@brazen.com
+        mike.weiner+recruiter2@brazen.com</recruiteremail></recruiteremails>
+    <recruiternames><recruitername>
+        Drew Hebble
+        Mike Recruiter1
+        Mike Recruiter2</recruitername></recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+  
+  <job>
+    <description>*** This job record is broken, but should not cause the rest of the feed to fail ***</description>
+  </job>
+  
+  <job>
+    <title>Business Development Representative</title>
+    <date>2019-02-04</date>
+    <referencenumber>876543219</referencenumber>
+    <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description><![CDATA[*** An existing job with modified recruiters ***]]></description>
+    <category>Sales</category>
+    <recruiteremails><recruiteremail>drew@brazen.com</recruiteremail>
+      <recruiteremail>sam@brazen.com</recruiteremail>
+      <recruiteremail>kellie@brazen.com</recruiteremail> <!-- Does not match an existing AccountUser-->
+    </recruiteremails>
+    <recruiternames>
+      <recruitername><![CDATA[ Sam Carlson ]]></recruitername> <!--Matches multiple AccountUsers-->
+      <recruitername><![CDATA[ Ed Barrientos ]]></recruitername> <!--Doesn't match an existing AccountUser-->
+    </recruiternames>
+  </job>
+  
+  <job>
+    <title>Business Development Representative 2</title>
+    <date>2019-01-04</date>
+    <referencenumber>999999999</referencenumber>
+    <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative2</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description><![CDATA[*** An existing job that isn't changing ***]]></description>
+    <category>Sales</category>
+    <!--Lack of recruiter tags doesn't cause NPE-->
+  </job>
+</source>
