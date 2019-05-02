@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<source xmlns="http://brazen.com/jobs/">
+  <publisher></publisher>
+  <publisherurl></publisherurl>
+  <lastbuilddate></lastbuilddate>
+  <job>
+    <title></title>
+    <date></date>
+    <referencenumber></referencenumber>
+    <url></url>
+    <company><![CDATA[]]></company>
+    <city><![CDATA[]]></city>
+    <state><![CDATA[]]></state>
+    <country><![CDATA[]]></country>
+    <postalcode></postalcode>
+    <description><![CDATA[]]></description>
+    <category></category>
+    <recruiteremails><recruiteremail>
+    </recruiteremail></recruiteremails>
+    <recruiternames><recruitername>
+    </recruitername></recruiternames>
+  </job>
+</source>

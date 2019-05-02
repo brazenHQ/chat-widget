@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<source xmlns="http://brazen.com/jobs/">
+  <publisher>Brazen Technologies</publisher>
+  <publisherurl>https://brazen.theresumator.com/</publisherurl>
+  <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
+  <job>
+    <title>Business Development Representative</title>
+    <date>2019-02-04</date>
+    <referencenumber>987656789</referencenumber>
+    <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description></description>
+    <category>Sales</category>
+    <recruiteremails><recruiteremail>mike.weiner@brazen.com</recruiteremail>
+    </recruiteremails>
+    <recruiternames>
+      <recruitername><![CDATA[ Mike Weiner ]]></recruitername> <!--Doesn't match an existing AccountUser-->
+    </recruiternames>
+  </job>
+</source>
