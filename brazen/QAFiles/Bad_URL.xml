@@ -15,10 +15,15 @@
     <postalcode>22201</postalcode>
     <description><![CDATA[*** A new job ***]]></description>
     <category>Engineering</category>
-    <recruiteremails><recruiteremail>
-        mike.weiner+recruiter1@brazen.com/recruiteremail></recruiteremails>
-    <recruiternames><recruitername>
-        Mike Recruiter2</recruitername></recruiternames>
+    <recruiteremails>
+      <recruiteremail>
+        mike.weiner+recruiter1@brazen.com
+      </recruiteremail></recruiteremails>
+    <recruiternames>
+      <recruitername>
+        Mike Recruiter2
+      </recruitername>
+    </recruiternames>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
 </source>
