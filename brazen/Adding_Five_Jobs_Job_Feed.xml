@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<source xmlns="http://brazen.com/jobs/">
+  <publisher>Brazen Technologies</publisher>
+  <publisherurl>https://brazen.theresumator.com/</publisherurl>
+  <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
+  
+  <job>
+    <TITLE>Job Description Job Test #1</TITLE> <!--Randomly capitalized for no good reason-->
+    <date>2019-06-13T07:53:26</date>
+    <referencenumber>2201501</referencenumber>
+    <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/LeadSenior-Quality-Assurance-Engineer</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description><![CDATA[This is the Job Description for Job Test #1]]></description>
+    <category>Engineering</category>
+    <recruiteremails>
+      <recruiteremail>mike.weiner+recruiter1@brazen.com</recruiteremail>
+    </recruiteremails>
+    <recruiternames>
+      <recruitername>Mike Recruiter1</recruitername>
+    </recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+    
+  <job>
+    <TITLE>Job Description Job Test #2</TITLE> <!--Randomly capitalized for no good reason-->
+    <date>2019-06-13T07:53:26</date>
+    <referencenumber>2201502</referencenumber>
+    <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/LeadSenior-Quality-Assurance-Engineer</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description><![CDATA[This is the Job Description for Job Test #2]]></description>
+    <category>Engineering</category>
+    <recruiteremails>
+      <recruiteremail>mike.weiner+recruiter1@brazen.com</recruiteremail>
+    </recruiteremails>
+    <recruiternames>
+      <recruitername>Mike Recruiter1</recruitername>
+    </recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+    
+  <job>
+    <TITLE>Job Description Job Test #3</TITLE> <!--Randomly capitalized for no good reason-->
+    <date>2019-06-13T07:53:26</date>
+    <referencenumber>2201503</referencenumber>
+    <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/LeadSenior-Quality-Assurance-Engineer</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description><![CDATA[This is the Job Description for Job Test #3]]></description>
+    <category>Engineering</category>
+    <recruiteremails>
+      <recruiteremail>mike.weiner+recruiter1@brazen.com</recruiteremail>
+    </recruiteremails>
+    <recruiternames>
+      <recruitername>Mike Recruiter1</recruitername>
+    </recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+    
+  <job>
+    <TITLE>Job Description Job Test #4</TITLE> <!--Randomly capitalized for no good reason-->
+    <date>2019-06-13T07:53:26</date>
+    <referencenumber>2201504</referencenumber>
+    <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/LeadSenior-Quality-Assurance-Engineer</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description><![CDATA[This is the Job Description for Job Test #4]]></description>
+    <category>Engineering</category>
+    <recruiteremails>
+      <recruiteremail>mike.weiner+recruiter1@brazen.com</recruiteremail>
+    </recruiteremails>
+    <recruiternames>
+      <recruitername>Mike Recruiter1</recruitername>
+    </recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+    
+  <job>
+    <TITLE>Job Description Job Test #5</TITLE> <!--Randomly capitalized for no good reason-->
+    <date>2019-06-13T07:53:26</date>
+    <referencenumber>2201505</referencenumber>
+    <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/LeadSenior-Quality-Assurance-Engineer</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <city><![CDATA[Arlington]]></city>
+    <state><![CDATA[VA]]></state>
+    <country><![CDATA[US]]></country>
+    <postalcode>22201</postalcode>
+    <description><![CDATA[This is the Job Description for Job Test #5]]></description>
+    <category>Engineering</category>
+    <recruiteremails>
+      <recruiteremail>mike.weiner+recruiter1@brazen.com</recruiteremail>
+    </recruiteremails>
+    <recruiternames>
+      <recruitername>Mike Recruiter1</recruitername>
+    </recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+</source>
