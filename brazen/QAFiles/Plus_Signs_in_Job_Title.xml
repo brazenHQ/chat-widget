@@ -4,10 +4,10 @@
   <publisherurl>https://brazen.theresumator.com/</publisherurl>
   <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
   <job>
-    <TITLE>Lead/Senior Quality Assurance Engineer</TITLE> <!--Randomly capitalized for no good reason-->
+    <title>+++ PLUS SIGNS IN THE JOB TITLE +++</title>
     <date>2019-01-28T07:53:26</date>
     <referencenumber>987654321</referencenumber>
-    <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/LeadSenior-Quality-Assurance-Engineer</url>
+    <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/Lead-Senior-Quality-Assurance-Engineer</url>
     <company><![CDATA[Brazen Technologies]]></company>
     <city><![CDATA[Arlington]]></city>
     <state><![CDATA[VA]]></state>
@@ -18,10 +18,14 @@
     <recruiteremails><recruiteremail>
         drew@brazen.com
         mike.weiner+recruiter1@brazen.com
-        mike.weiner+recruiter2@brazen.com</recruiteremail></recruiteremails>
+        mike.weiner+recruiter2@brazen.com
+        </recruiteremail>
+    </recruiteremails>
     <recruiternames><recruitername>
         Drew Hebble
-        Mike Recruiter2</recruitername></recruiternames>
-    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+        Mike Recruiter1
+        Mike Recruiter2
+        </recruitername>
+     </recruiternames>
   </job>
 </source>
