@@ -6,7 +6,7 @@
   <job>
     <title>Lead/Senior Quality Assurance Engineer</title>
     <date>2019-01-28T07:53:26</date>
-    <referencenumber>987654321</referencenumber>
+    <referencenumber>987654321.1</referencenumber>
     <url>https://brazen.theresumator.com/apply/0Q3QZnzzNL/Lead-Senior-Quality-Assurance-Engineer</url>
     <company><![CDATA[Brazen Technologies]]></company>
     <city><![CDATA[Arlington]]></city>
@@ -16,13 +16,12 @@
     <description><![CDATA[*** A new job ***]]></description>
     <category>Engineering</category>
     <recruiteremails>
-      <recruiteremail>andre+c1@brazen.com</recruiteremail>
-      <recruiteremail>andre+zombocom@brazen.com</recruiteremail>
+      <recruiteremail></recruiteremail>
+      <recruiteremail></recruiteremail>
     </recruiteremails>
     <recruiternames>
-      <recruitername>Drew Hebble</recruitername>
-        <recruitername>Mike Recruiter1</recruitername>
-        <recruitername>Mike Recruiter2</recruitername>
+      <recruitername></recruitername>
+        <recruitername></recruitername>
      </recruiternames>
   </job>
 </source>
