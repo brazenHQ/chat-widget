@@ -15,8 +15,8 @@
    <job>
       <title><![CDATA[Zombocom Appreciator]]></title>
       <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[1]]></referencenumber>
-      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html]]></url>
+      <referencenumber><![CDATA[424242-1]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-1]]></url>
       <company><![CDATA[Zombocom]]></company>
       <city><![CDATA[Zombo City]]></city>
       <state><![CDATA[WY]]></state>
@@ -48,10 +48,10 @@
      - When you create a job here, make the id in the URL match the referenceNumber.
      -->
    <job>
-      <title>Zombocom Appreciator</title>
+      <title>Zombocom Appreciator II</title>
       <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
-      <referencenumber>2</referencenumber>
-      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?id=424242</url>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
       <country>US</country>
       <postalCode>46032</postalCode>
       <description>
@@ -60,4 +60,21 @@
          &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
       </description>
    </job>
+
+   <job>
+      <title>Zombocom Appreciator III</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>424242-3</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-3</url>
+      <city><![CDATA[Zombo City]]></city>
+      <state><![CDATA[Zombokstan]]></state>
+      <country>US</country>
+      <postalCode>46032</postalCode>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+
 </source>
