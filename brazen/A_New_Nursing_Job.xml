@@ -1,28 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<source xmlns="http://brazen.com/jobs/">
-  <publisher>Brazen Technologies</publisher>
-  <publisherurl>https://brazen.theresumator.com/</publisherurl>
-  <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
-  
-  <job>
-    <TITLE>Nursing Job - Rules Test #1</TITLE> <!--Randomly capitalized for no good reason-->
-    <date>2019-06-13T07:53:26</date>
-    <referencenumber>0614201901</referencenumber>
-    <url>https://www.google.com/search?q=disney+animator+job+listing&oq=disney+animator+job+listing&aqs=chrome..69i57j33.5033j0j7&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwipreeIi-niAhXGnOAKHb76DLoQp4wCMAF6BAgHEAE#htidocid=-wqmboHA2J4Ku9Y7AAAAAA%3D%3D</url>
-    <company><![CDATA[Brazen Technologies]]></company>
-    <city><![CDATA[Anaheim]]></city>
-    <state><![CDATA[CA]]></state>
-    <country><![CDATA[US]]></country>
-    <postalcode>92802</postalcode>
-    <description><![CDATA[Nursing Job Description.]]></description>
-    <category>Nursing</category>
-    <recruiteremails>
-      <recruiteremail>mike.weiner+recruiter1@brazen.com</recruiteremail>
-    </recruiteremails>
-    <recruiternames>
-      <recruitername>Mike Recruiter1</recruitername>
-    </recruiternames>
-    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
-  </job>
-
- </source>
+<?xml version="1.0" encoding="utf-8"?>
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Manisha test job feed (66666)</publisher>
+   <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
+   <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
+   <job>
+      <title><![CDATA[Zombocom Appreciator]]></title>
+      <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
+      <referencenumber><![CDATA[66666-1]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html]]></url>
+      <company><![CDATA[Zombocom]]></company>
+      <city><![CDATA[Zombo City]]></city>
+      <state><![CDATA[WY]]></state>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[46032]]></postalCode>
+      <description><![CDATA[
+         <h1>This is a small description</h1>
+         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
+         <p>Had this been outside a CDATA section, tags should be escaped.<p>
+         <p>&amp; <--- this should be rendered as an amperstand followed by the text 'amp;'.<p>
+      ]]></description>
+      <salary><![CDATA[Non negotiable as in non existing]]></salary>
+      <education><![CDATA[None]]></education>
+      <jobType><![CDATA[Insalubrious]]></jobType>
+      <category><![CDATA[Appreciator]]></category>
+      <experience><![CDATA[None]]></experience>
+      <recruiterEmails>
+         <recruiterEmail><![CDATA[test-user@brazen.com]]></recruiterEmail>
+         <recruiterEmail><![CDATA[kevin.caniano+qarec@brazen.com]]></recruiterEmail>
+      </recruiterEmails>
+   </job>
+</source>
