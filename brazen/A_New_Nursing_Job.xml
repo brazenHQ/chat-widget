@@ -21,12 +21,11 @@
       ]]></description>
       <salary><![CDATA[Non negotiable as in non existing]]></salary>
       <education><![CDATA[None]]></education>
-      <jobType><![CDATA[Insalubrious]]></jobType>
-      <category><![CDATA[Appreciator]]></category>
+      <jobType><![CDATA[ER Nurse]]></jobType>
+      <category><![CDATA[Nursing]]></category>
       <experience><![CDATA[None]]></experience>
       <recruiterEmails>
-         <recruiterEmail><![CDATA[test-user@brazen.com]]></recruiterEmail>
-         <recruiterEmail><![CDATA[kevin.caniano+qarec@brazen.com]]></recruiterEmail>
+         <recruiterEmail></recruiterEmail>
       </recruiterEmails>
    </job>
 </source>
