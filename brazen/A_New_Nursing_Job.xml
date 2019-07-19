@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
-   <publisher>Manisha test job feed (66666)</publisher>
+   <publisher>Job Rule Testing</publisher>
    <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
    <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
    <job>
       <title><![CDATA[ER Nurse]]></title>
       <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[66666-1]]></referencenumber>
+      <referencenumber><![CDATA[92802-1]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html]]></url>
       <company><![CDATA[ABC Hospital]]></company>
       <city><![CDATA[Arlington]]></city>
