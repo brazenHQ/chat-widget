@@ -4,16 +4,27 @@
   <publisherurl>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative/</publisherurl>
   <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
   <job>
+    <!-- UNIQUE FEED INFO-->
     <category>Nursing</category>
+
     <city><![CDATA[Pasadena]]></city>
+
     <recruiteremails>
       <recruiteremail>mike.weiner+general@brazen.com</recruiteremail>
     </recruiteremails>
+
     <state><![CDATA[CA]]></state>
+
     <title>Generic Title</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>202</referencenumber>
+
+    <!-- Unique URL x=# for each Job-->
+    <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative?x=202</url>
+    
+    <!-- GENERIC INFO START...-->
     <date>2019-07-13T12:00:00</date>
-    <referencenumber>201</referencenumber>
-    <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative?x=201</url>
     <company><![CDATA[Brazen Technologies]]></company>
     <country><![CDATA[US]]></country>
     <postalcode>92802</postalcode>
