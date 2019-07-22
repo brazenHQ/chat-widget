@@ -20,7 +20,7 @@
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
     <referencenumber>203</referencenumber>
 
-    <!-- Unique URL x=# for each Job. This # should match the URL below-->
+    <!-- Unique URL x=# for each Job.  This # should match the URL below-->
     <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative?x=203</url>
     
     <!-- GENERIC INFO START...-->
