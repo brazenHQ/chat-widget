@@ -5,9 +5,9 @@
   <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
-    <category>Nursing</category>
+    <category>Generic</category>
 
-    <city><![CDATA[Pasadena]]></city>
+    <city><![CDATA[Arlington]]></city>
 
     <recruiteremails>
       <recruiteremail>mike.weiner+general@brazen.com</recruiteremail>
@@ -18,10 +18,10 @@
     <title>Generic Title</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>204</referencenumber>
+    <referencenumber>205</referencenumber>
 
     <!-- Unique URL x=# for each Job.  This # should match the URL below-->
-    <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative204?x=204</url>
+    <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative205?x=205</url>
     
     <!-- GENERIC INFO START...-->
     <date>2019-07-13T12:00:00</date>
