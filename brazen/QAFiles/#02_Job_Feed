@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<source xmlns="http://brazen.com/jobs/">
+  <publisher>Brazen Technologies</publisher>
+  <publisherurl>https://brazen.theresumator.com/</publisherurl>
+  <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
+  
+  <job>
+    <!-- START OF JOB FEED TESTING FIELDS -->
+    <CATEGORY>Generic</CATEGORY>
+    
+    <CITY><![CDATA[Arlington]]></CITY>
+    
+    <RECRUITEREMAILS>
+      <recruiteremail>mike.weiner+general@brazen.com</recruiteremail>
+    </RECRUITEREMAILS>
+    
+    <STATE><![CDATA[CA]]></STATE>
+    
+    <TITLE>Generic Title</TITLE>
+    <!-- END OF JOB FEED TESTING FIELDS -->
+    
+    <date>2019-06-13T07:53:26</date>
+    <referencenumber>0614201901</referencenumber>
+    <url>https://www.google.com/search?q=disney+animator+job+listing&oq=disney+animator+job+listing&aqs=chrome..69i57j33.5033j0j7&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwipreeIi-niAhXGnOAKHb76DLoQp4wCMAF6BAgHEAE#htidocid=-wqmboHA2J4Ku9Y7AAAAAA%3D%3D</url>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Nursing Job Description.]]></description>
+    <recruiternames>
+      <recruitername>Mike Recruiter1</recruitername>
+    </recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+ </source>
