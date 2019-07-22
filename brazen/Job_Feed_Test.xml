@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <source xmlns="http://brazen.com/jobs/">
   <publisher>Brazen Technologies</publisher>
-  <publisherurl>https://brazen.theresumator.com/</publisherurl>
+  <publisherurl>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative/</publisherurl>
   <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
-  
   <job>
     <category>Nursing</category>
     <city><![CDATA[Pasadena]]></city>
@@ -11,11 +10,10 @@
       <recruiteremail>mike.weiner@brazen.com</recruiteremail>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    
     <title>Generic Title</title>
     <date>2019-06-13T07:53:26</date>
-    <referencenumber>102</referencenumber>
-    <url>https://jobs.disneycareers.com/job/bristol/sr-qa-analyst-web/391/12008345?x=102?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic</url>
+    <referencenumber>103</referencenumber>
+    <url>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative?x=103url>
     <company><![CDATA[Brazen Technologies]]></company>
     <country><![CDATA[US]]></country>
     <postalcode>92802</postalcode>
@@ -25,5 +23,4 @@
     </recruiternames>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
-
  </source>
