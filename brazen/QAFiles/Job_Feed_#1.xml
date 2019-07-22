@@ -5,20 +5,27 @@
   <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
   
   <job>
-    <TITLE>#01 - When Category is Nursing assign to Recruiter +nursejobs@</TITLE> <!--Randomly capitalized for no good reason-->
+    <!-- START OF JOB FEED TESTING FIELDS -->
+    <CATEGORY>Nursing</CATEGORY>
+    
+    <CITY><![CDATA[Pasadena]]></CITY>
+    
+    <RECRUITEREMAILS>
+      <recruiteremail>mike.weiner+general@brazen.com</recruiteremail>
+    </RECRUITEREMAILS>
+    
+    <STATE><![CDATA[CA]]></STATE>
+    
+    <TITLE>Generic Title</TITLE>
+    <!-- END OF JOB FEED TESTING FIELDS -->
+    
     <date>2019-06-13T07:53:26</date>
     <referencenumber>0614201901</referencenumber>
     <url>https://www.google.com/search?q=disney+animator+job+listing&oq=disney+animator+job+listing&aqs=chrome..69i57j33.5033j0j7&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwipreeIi-niAhXGnOAKHb76DLoQp4wCMAF6BAgHEAE#htidocid=-wqmboHA2J4Ku9Y7AAAAAA%3D%3D</url>
     <company><![CDATA[Brazen Technologies]]></company>
-    <city><![CDATA[Anaheim]]></city>
-    <state><![CDATA[CA]]></state>
     <country><![CDATA[US]]></country>
     <postalcode>92802</postalcode>
     <description><![CDATA[Nursing Job Description.]]></description>
-    <category>Nursing</category>
-    <recruiteremails>
-      <recruiteremail>mike.weiner+recruiter1@brazen.com</recruiteremail>
-    </recruiteremails>
     <recruiternames>
       <recruitername>Mike Recruiter1</recruitername>
     </recruiternames>
