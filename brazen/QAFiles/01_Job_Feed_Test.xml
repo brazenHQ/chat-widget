@@ -5,12 +5,12 @@
   <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
-    <category>Generic</category>
+    <category>Nursing</category>
 
     <city><![CDATA[Arlington]]></city>
 
     <recruiteremails>
-      <recruiteremail>mike.weiner+general@brazen.com</recruiteremail>
+      <recruiteremail>general@brazen.com</recruiteremail>
     </recruiteremails>
 
     <state><![CDATA[CA]]></state>
