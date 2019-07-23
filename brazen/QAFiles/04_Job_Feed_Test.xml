@@ -19,19 +19,22 @@
     <TITLE>Generic Title</TITLE>
     
     <!-- END OF JOB FEED TESTING FIELDS -->
-    
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
     <referencenumber>304</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
 
-    <date>2019-06-13T07:53:26</date>
-    <url>https://www.google.com/search?q=disney+animator+job+listing&oq=disney+animator+job+listing&aqs=chrome..69i57j33.5033j0j7&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwipreeIi-niAhXGnOAKHb76DLoQp4wCMAF6BAgHEAE#htidocid=-wqmboHA2J4Ku9Y7AAAAAA%3D%3D</url>
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=304]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
     <company><![CDATA[Brazen Technologies]]></company>
     <country><![CDATA[US]]></country>
     <postalcode>92802</postalcode>
-    <description><![CDATA[Nursing Job Description.]]></description>
+    <description><![CDATA[Job Description.]]></description>
     <recruiternames>
-      <recruitername>Mike Recruiter1</recruitername>
+      <recruitername>General Jobs Recruiter</recruitername>
     </recruiternames>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
-
  </source>
