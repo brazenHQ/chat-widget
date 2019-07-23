@@ -18,11 +18,11 @@
     <title>Generic Title</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>401</referencenumber>
+    <referencenumber>501</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
 
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=401]]></url>
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=501]]></url>
     
     <!-- GENERIC INFO START...-->
     <date>2019-07-13T12:00:00</date>
