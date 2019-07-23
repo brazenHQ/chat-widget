@@ -20,11 +20,11 @@
     <!-- END OF JOB FEED TESTING FIELDS -->
     
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>302</referencenumber>
+    <referencenumber>402</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
 
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=302]]></url>
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=402]]></url>
     
     <!-- GENERIC INFO START...-->
     <date>2019-07-13T12:00:00</date>
