@@ -5,32 +5,32 @@
   <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
-    <category>Nursing</category>
+    <category>Tech</category>
 
     <city><![CDATA[Pasadena]]></city>
 
     <recruiteremails>
-      <recruiteremail>mike.weiner+general@brazen.com</recruiteremail>
+      <recruiteremail></recruiteremail>
     </recruiteremails>
     <recruiternames>
-      <recruitername>General Jobs Recruiter</recruitername>
+      <recruitername></recruitername>
     </recruiternames>
 
     <state><![CDATA[CA]]></state>
 
-    <title>Generic Title</title>
+    <title>Generic Tech Job Title</title>
 
-    <referencenumber>501</referencenumber>
+    <referencenumber>602</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=501]]></url>
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=602]]></url>
     
     <!-- GENERIC INFO START...-->
     <date>2019-07-13T12:00:00</date>
     <company><![CDATA[Brazen Technologies]]></company>
     <country><![CDATA[US]]></country>
     <postalcode>92802</postalcode>
-    <description><![CDATA[Nursing Job Description.]]></description>
+    <description><![CDATA[Tech Job Description.]]></description>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
  </source>
