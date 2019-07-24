@@ -5,17 +5,16 @@
   <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
-    <category>Nursing</category>
+    <category>Tech</category>
 
     <city><![CDATA[Pasadena]]></city>
 
     <recruiteremails>
-      <recruiteremail>mike.weiner+general@brazen.com</recruiteremail>
     </recruiteremails>
 
     <state><![CDATA[CA]]></state>
 
-    <title>Generic Title</title>
+    <title>Generic Tech Job</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
     <referencenumber>501</referencenumber>
@@ -29,9 +28,9 @@
     <company><![CDATA[Brazen Technologies]]></company>
     <country><![CDATA[US]]></country>
     <postalcode>92802</postalcode>
-    <description><![CDATA[Nursing Job Description.]]></description>
+    <description><![CDATA[Generic Job Description.]]></description>
     <recruiternames>
-      <recruitername>General Jobs Recruiter</recruitername>
+      <recruitername></recruitername>
     </recruiternames>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
