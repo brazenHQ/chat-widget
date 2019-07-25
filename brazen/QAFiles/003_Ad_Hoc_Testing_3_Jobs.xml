@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<source xmlns="http://brazen.com/jobs/">
+  <publisher>Brazen Technologies</publisher>
+  <publisherurl>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative/</publisherurl>
+  <lastbuilddate>Mon, 04 Feb 2019 20:03:03 GMT</lastbuilddate> <!--Tardy build date-->
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails>mike.weiner+recruiter1@brazen.com</recruiteremails>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #6</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>708</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=708]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <recruiternames>
+      <recruitername>Mike Weiner</recruitername>
+    </recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Pasadena]]></city>
+    <recruiteremails>
+    </recruiteremails>
+    <state><![CDATA[CA]]></state>
+    <title>Tech Job #7</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>709</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=709]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails>mike.weiner+recruiter1@brazen.com</recruiteremails>
+    <recruiternames>
+      <recruitername>Mike Weiner</recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #8</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>710</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=710]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+ </source>
