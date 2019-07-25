@@ -11,10 +11,12 @@
     <company><![CDATA[Brazen Technologies]]></company>
     <city><![CDATA[Arlington]]></city>
     <state><![CDATA[VA]]></state>
-    <country><![CDATA[US]]></country>
+    <country>US</country>
     <postalcode>22201</postalcode>
     <description><![CDATA[*** A new job ***]]></description>
     <category>Engineering</category>
+      
+    <!-- Recruiter Info -->
     <recruiteremails><recruiteremail>
         </recruiteremail>
     </recruiteremails>
