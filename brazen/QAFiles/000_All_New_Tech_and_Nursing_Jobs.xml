@@ -218,7 +218,7 @@
     <!-- UNIQUE FEED INFO-->
     <category>Tech</category>
     <city><![CDATA[Arlington]]></city>
-    <recruiteremails>mike.weiner+recruiter1@brazen.com</recruiteremails>
+    <recruiteremails></recruiteremails>
     <state><![CDATA[VA]]></state>
     <title>Tech Job #6</title>
 
@@ -235,7 +235,7 @@
     <postalcode>92802</postalcode>
     <description><![CDATA[Generic Job Description.]]></description>
     <recruiternames>
-      <recruitername>Mike Weiner</recruitername>
+      <recruitername></recruitername>
     </recruiternames>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
@@ -269,9 +269,9 @@
     <!-- UNIQUE FEED INFO-->
     <category>Tech</category>
     <city><![CDATA[Arlington]]></city>
-    <recruiteremails>mike.weiner+recruiter1@brazen.com</recruiteremails>
+    <recruiteremails></recruiteremails>
     <recruiternames>
-      <recruitername>Mike Weiner</recruitername>
+      <recruitername></recruitername>
     </recruiternames>
     <state><![CDATA[VA]]></state>
     <title>Tech Job #8</title>
