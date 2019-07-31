@@ -10,10 +10,10 @@
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Tech Job #1</title>
+    <title>Tech Job #901</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>801</referencenumber>
+    <referencenumber>901</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=801]]></url>
@@ -37,10 +37,10 @@
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Tech Job #2</title>
+    <title>Tech Job #902</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>802</referencenumber>
+    <referencenumber>902</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=802]]></url>
@@ -63,10 +63,10 @@
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Tech Job #3</title>
+    <title>Tech Job #903</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>803</referencenumber>
+    <referencenumber>903</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=803]]></url>
@@ -89,10 +89,10 @@
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Tech Job #4</title>
+    <title>Tech Job #904</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>804</referencenumber>
+    <referencenumber>904</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=804]]></url>
@@ -115,10 +115,10 @@
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Tech Job #4</title>
+    <title>Tech Job #905</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>603</referencenumber>
+    <referencenumber>905</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=603]]></url>
@@ -141,10 +141,10 @@
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Tech Job #5</title>
+    <title>Tech Job #906</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>805</referencenumber>
+    <referencenumber>906</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=805]]></url>
@@ -163,15 +163,15 @@
   
     <job>
     <!-- UNIQUE FEED INFO-->
-    <category>Nursing</category>
+    <category>Tech</category>
     <city><![CDATA[Pasadena]]></city>
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Med Job #1</title>
+    <title>Tech Job #907</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>806</referencenumber>
+    <referencenumber>907</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=806]]></url>
@@ -194,10 +194,10 @@
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Tech Job #3</title>
+    <title>Tech Job #908</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>807</referencenumber>
+    <referencenumber>908</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=807]]></url>
@@ -220,10 +220,10 @@
     <city><![CDATA[Arlington]]></city>
     <recruiteremails></recruiteremails>
     <state><![CDATA[VA]]></state>
-    <title>Tech Job #6</title>
+    <title>Tech Job #909</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>808</referencenumber>
+    <referencenumber>909</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=808]]></url>
@@ -246,10 +246,10 @@
     <recruiteremails>
     </recruiteremails>
     <state><![CDATA[CA]]></state>
-    <title>Tech Job #7</title>
+    <title>Tech Job #910</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>809</referencenumber>
+    <referencenumber>910</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=809]]></url>
@@ -274,10 +274,10 @@
       <recruitername></recruitername>
     </recruiternames>
     <state><![CDATA[VA]]></state>
-    <title>Tech Job #8</title>
+    <title>Tech Job #911</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>810</referencenumber>
+    <referencenumber>911</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
@@ -290,4 +290,374 @@
     <description><![CDATA[Generic Job Description.]]></description>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
- </source>
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #912</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>912</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #913</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>913</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #914</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>914</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #915</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>915</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #916</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>916</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #917</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>917</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #918</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>918</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #919</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>919</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #920</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>920</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #921</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>921</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #922</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>922</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #923</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>923</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #924</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>924</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+  <job>
+    <!-- UNIQUE FEED INFO-->
+    <category>Tech</category>
+    <city><![CDATA[Arlington]]></city>
+    <recruiteremails></recruiteremails>
+    <recruiternames>
+      <recruitername></recruitername>
+    </recruiternames>
+    <state><![CDATA[VA]]></state>
+    <title>Tech Job #925</title>
+
+    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
+    <referencenumber>925</referencenumber>
+    
+    <!-- Change no information below this line for Job Rules/Job Feed testing -->
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=810]]></url>
+    
+    <!-- GENERIC INFO START...-->
+    <date>2019-07-13T12:00:00</date>
+    <company><![CDATA[Brazen Technologies]]></company>
+    <country><![CDATA[US]]></country>
+    <postalcode>92802</postalcode>
+    <description><![CDATA[Generic Job Description.]]></description>
+    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
+  </job>
+
+
+</source>
