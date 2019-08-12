@@ -98,7 +98,7 @@ https://brazenhq.github.io/chat-widget/brazen/external-page.html?source=66666-42
 <country>US></country>
 <postalCode>46032</postalCode>
 <description>
-<h1>This is a small description</h1> <p>All markup must be escaped here because it is not inside a CDATA section.<p> <p>& <--- this should be rendered as an amperstand.<p>
+<h1>This is a small description</h1>
 </description>
 </job>
  <!--  Use this job to test the source hash  -->
