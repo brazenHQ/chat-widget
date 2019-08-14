@@ -34,7 +34,6 @@
       <category><![CDATA[Appreciator]]></category>
       <experience><![CDATA[None]]></experience>
       <recruiterEmails>
-         <recruiterEmail><![CDATA[test-user@brazen.com]]></recruiterEmail>
       </recruiterEmails>
    </job>
 
@@ -59,7 +58,9 @@
          &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
          &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
       </description>
-   </job>
+
+      <recruiterEmails/>
+</job>
 
    <job>
       <title>Zombocom Appreciator III</title>
@@ -73,7 +74,7 @@
       <description>
          &lt;h1&gt;This is a small description&lt;/h1&gt;
          &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
-         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;Or should it?
       </description>
    </job>
 
