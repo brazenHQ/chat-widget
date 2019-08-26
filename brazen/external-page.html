@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>External page holder for the plugin</title>
-
+    <script>
+        // this helps debug the messages being sent between the iframe and the loader.js
+        addEventListener("message", function(event) {
+            console.debug("postMessage received by '" + document.title + "' from '" + event.origin + "' with data:", event.data);
+        });
+    </script>
     <style>
         body {
             display: flex;
@@ -136,16 +141,27 @@
                     neque, id vestibulum diam est quis urna.</p>
                 <p>Pellentesque rhoncus leo condimentum, egestas nisi at, malesuada dui. Fusce hendrerit vehicula odio
                     aliquet ullamcorper.</p>
-                <p class="list_F">Etiam lobortis id nulla non accumsan. Praesent scelerisque nisl in massa laoreet
+                <p>Etiam lobortis id nulla non accumsan. Praesent scelerisque nisl in massa laoreet
                     placerat. Quisque vulputate nec tellus elementum egestas.</p>
-                <h2 class="list_F">Agrajag</h2>
-                <ul>
-                    <li>A dog in Dirk Gently’s Holistic Detective Agency Television Show</li>
-                    <li>Flies, swatted by Arthur</li>
-                </ul>
                 <p>Quisque eleifend fringilla ex, nec elementum mi iaculis sed. Pellentesque malesuada laoreet turpis ac
                     pellentesque.</p>
                 <em>This is ZomboCom! And welcome to you, who have come to ZomboCom.</em></p>
+
+                  <fieldset id="manual-reveal-area" style="display: none;" >
+                    <legend>Manual reveal</legend>
+                    <form id="manual-reveal-form" action="#">
+                      First name<br/>
+                      <input type="text" name="firstName"/><br/>
+                      Last name<br/>
+                      <input type="text" name="lastName"/><br/>
+                      Mobile number<br/>
+                      <input type="text" name="mobileNumber"/><br/>
+                      Email<br/>
+                      <input type="text" name="emailAddress"/><br/>
+
+                      <button onclick="showPlugin(); return false;">Manual reveal plugin</button>
+                    </form>
+                  </fieldset>
                 <p>
                 <h1>Enabling mixed content</h1>
                 <a href="https://support.mozilla.org/en-US/kb/mixed-content-blocking-firefox#w_unblock-mixed-content">
@@ -164,7 +180,7 @@
     <fieldset id="config">
         <legend>Change the plugin</legend>
 
-        <form action="#">
+        <form id="widget-form" action="#">
             <div>
                 Salesforce ID<br/>
                 <input type="text" name="salesforceId"/>
@@ -197,6 +213,23 @@
                 <div>
                     <input type="radio" name="env" value="local"/> Local
                 </div>
+            </div>
+
+            <div class="options">
+              <div>
+                Minimizable<br/>
+                <select name="minimizable">
+                  <option value="true">Yes</option>
+                  <option value="false">No</option>
+                </select>
+              </div>
+              <div>
+                Reveal type<br/>
+                <select name="reveal-type">
+                  <option value="AUTOMATIC">Automatic</option>
+                  <option value="MANUAL">Manual</option>
+                </select>
+              </div>
             </div>
 
             <input type="submit"/>
@@ -264,7 +297,7 @@
 
     var populateField = function () {
         var queryParams = getQueryParams();
-        var form = document.getElementsByTagName('form')[0];
+        var form = document.getElementById('widget-form');
 
         return function (fieldName, defaultValue) {
             var queryParamValue = queryParams[fieldName];
@@ -285,6 +318,8 @@
     populateField('brazenJobId', '');
     populateField('referenceNumber', '');
     populateField('env', 'qa');
+    populateField('minimizable', 'true');
+    populateField('reveal-type', 'AUTOMATIC');
 
     // /form population
 
@@ -297,7 +332,7 @@
     // plugin tag generation
     (function () {
         // this code is inside a function so it does not leak variables to the outside
-        var form = document.getElementsByTagName('form')[0];
+        var form = document.getElementById('widget-form');
         var warnings = [];
         var errors = [];
         var success = [];
@@ -307,6 +342,8 @@
         var mode = form['mode'].value;
         var brazenJobId = form['brazenJobId'].value;
         var referenceNumber = form['referenceNumber'].value;
+        var minimizable = form['minimizable'].value == 'true';
+        var revealType = form['reveal-type'].value;
 
         if (isEmpty(salesforceId))
         {
@@ -375,6 +412,16 @@
                 }
             }
 
+            if (!minimizable)
+            {
+              scriptTag.setAttribute('data-minimizable', false);
+            }
+
+            scriptTag.setAttribute('data-reveal-type', revealType);
+            if (revealType == 'MANUAL')
+            {
+              setTimeout(setupShowPluginButton, 1000);
+            }
             document.body.append(scriptTag);
         }
 
@@ -399,11 +446,53 @@
         displayMessages('warnings', warnings);
         displayMessages('errors', errors);
 
-
     }());
+
+    var brazenHasOptions = false;
+
+    function showPlugin()
+    {
+        if (brazenHasOptions)
+        {
+            var form = document.getElementById('manual-reveal-form');
+            var userInfo = {};
+            setUserInfo(form, userInfo, 'firstName');
+            setUserInfo(form, userInfo, 'lastName');
+            setUserInfo(form, userInfo, 'emailAddress');
+            setUserInfo(form, userInfo, 'mobileNumber');
+            brazenTechnologies.reveal(userInfo);
+        }
+        else
+        {
+            alert("Plugin has no options");
+        }
+    }
+
+    function setUserInfo(form, userInfo, fieldName)
+    {
+        var value = form[fieldName].value;
+        if (value !== undefined && value !== '')
+        {
+            userInfo[fieldName] = value;
+        }
+    }
+
+    function setupShowPluginButton()
+    {
+      brazenTechnologies.setLoadedCallback(function(hasOptions) {
+          brazenHasOptions = hasOptions;
+          if (hasOptions)
+          {
+            document.getElementById('manual-reveal-area').style.display = 'block';
+          }
+          else
+          {
+            alert('Plugin has no options');
+          }
+      });
+    }
 </script>
 
 </body>
 
 </html>
-
