@@ -47,12 +47,13 @@
      - When you create a job here, make the id in the URL match the referenceNumber.
      -->
    <job>
-      <title>Zombocom Appreciator II</title>
+      <title>Zombocom Appreciator USFA</title>
       <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
       <referencenumber>424242-2</referencenumber>
       <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
-      <country>US</country>
-      <postalCode>46032</postalCode>
+      <country>USFA</country>
+      <state>Delaware</state>
+      <city>A City</city>
       <description>
          &lt;h1&gt;This is a small description&lt;/h1&gt;
          &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
@@ -60,22 +61,128 @@
       </description>
 
       <recruiterEmails/>
-</job>
+   </job>
 
    <job>
-      <title>Zombocom Appreciator III</title>
+      <title>Zombocom Appreciator USA spelled</title>
       <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
-      <referencenumber>424242-3</referencenumber>
-      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-3</url>
-      <city><![CDATA[Zombo City]]></city>
-      <state><![CDATA[Zombokstan]]></state>
-      <country>US</country>
-      <postalCode>46032</postalCode>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
+      <country>USA</country>
+      <state>Alaska</state>
+      <city>Anchorage</city>
       <description>
          &lt;h1&gt;This is a small description&lt;/h1&gt;
          &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
-         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;Or should it?
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
       </description>
    </job>
+
+   <job>
+      <title>Zombocom Appreciator USA code</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
+      <country>USA</country>
+      <state>AK</state>
+      <city>Anchorage</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+
+   <job>
+      <title>Zombocom Appreciator United States of America</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
+      <country>Unites States of America</country>
+      <state>Virginia</state>
+      <city>Arlington</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+
+   <job>
+      <title>Zombocom Appreciator US</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
+      <country>US</country>
+      <state>Virginia</state>
+      <city>Arlington</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+   
+   <job>
+      <title>Zombocom Appreciator US code</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
+      <country>US</country>
+      <state>VA</state>
+      <city>Arlington</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+
+   <job>
+      <title>Zombocom Appreciator US not available</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
+      <country>US</country>
+      <state>Puerto rico is not a state. Yet.</state>
+      <city>Arlington</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+
+   <job>
+      <title>Zombocom Appreciator United States</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
+      <country>Unites States</country>
+      <state>Virginia</state>
+      <city>Arlington</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+
+   <job>
+      <title>Zombocom Appreciator United States</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>424242-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=424242-2</url>
+      <country>Unites States</country>
+      <state>DE</state>
+      <city>Arlington</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+
+
 
 </source>
