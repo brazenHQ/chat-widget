@@ -136,10 +136,6 @@
                 elementum justo in fringilla laoreet.<br/>
                 <p><em>Welcome ... to ZomboCom. This is ... ZomboCom. Welcome ... to ZomboCom! This is ZomboCom,
                     welcome! Yes ... This ... is ZomboCom.</em></p>
-                <p>Vivamus luctus mattis posuere. Quisque vehicula, metus a mattis faucibus, libero erat condimentum
-                    neque, id vestibulum diam est quis urna.</p>
-                <p>Quisque eleifend fringilla ex, nec elementum mi iaculis sed. Pellentesque malesuada laoreet turpis ac
-                    pellentesque.</p>
                 <em>This is ZomboCom! And welcome to you, who have come to ZomboCom.</em></p>
 
                   <fieldset id="manual-reveal-area" style="display: none;" >
@@ -354,12 +350,12 @@
         {
             if (!isEmpty(brazenJobId))
             {
-                warnings.push('Brazen\'s job id ignored for EVENT mode.');
+                warnings.push('Brazen\'s Job ID is ignored for Event mode.');
                 brazenJobId = undefined;
             }
             if (!isEmpty(referenceNumber))
             {
-                warnings.push('Reference number ignored for EVENT mode.');
+                warnings.push('Reference Number is ignored for Event mode.');
                 referenceNumber = undefined;
             }
         }
@@ -367,7 +363,7 @@
         {
             if (!isEmpty(brazenJobId) && !isEmpty(referenceNumber))
             {
-                warnings.push('Brazen\'s job id and reference number defined in JOB mode. Ignoring Brazen job id.');
+                warnings.push('Brazen\'s Job ID and Reference Number defined in Job mode. Ignoring Brazen Job ID.');
                 brazenJobId = undefined;
             }
         }
