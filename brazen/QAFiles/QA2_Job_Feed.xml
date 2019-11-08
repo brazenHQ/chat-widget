@@ -7,7 +7,7 @@
     <!-- UNIQUE FEED INFO-->
     <category>Tech</category>
     <city><![CDATA[Burke]]></city>
-    <recruiteremails><"mike.weiner+testrecruiter@brazen.com"></recruiteremails>
+    <recruiteremails><mike.weiner+testrecruiter@brazen.com></recruiteremails>
     <state><![CDATA[CA]]></state>
     <title>Test Job for 23684</title>
 
@@ -24,7 +24,7 @@
     <postalcode>22015</postalcode>
     <description><![CDATA[Generic Job Description.]]></description>
     <recruiternames>
-      <recruitername><"Test Recruiter"></recruitername>
+      <recruitername><Test Recruiter></recruitername>
     </recruiternames>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
