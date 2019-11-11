@@ -1,33 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<source xmlns="http://brazen.com/jobs/">
-  <publisher>Brazen Technologies</publisher>
-  <publisherurl>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative/</publisherurl>
-  <lastbuilddate>Mon, 11 Nov 2019 09:30:30 GMT</lastbuilddate> <!--Tardy build date-->
-  <job>
-    <!-- UNIQUE FEED INFO-->
-    <category>Tech</category>
-    <city><![CDATA[Burke]]></city>
-    <recruiteremails>
-       <recruiteremail>mike.weiner+1111-01@brazen.com</recruiteremail>
-    </recruiteremails>
-    <state><![CDATA[CA]]></state>
-    <title>Ticket 23684 Test</title>
-
-    <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>11112019</referencenumber>
-    
-    <!-- Change no information below this line for Job Rules/Job Feed testing -->
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=603]]></url>
-    
-    <!-- GENERIC INFO START...-->
-    <date>2019-11-11T12:00:00</date>
-    <company><![CDATA[Brazen Technologies]]></company>
-    <country><![CDATA[US]]></country>
-    <postalcode>22015</postalcode>
-    <description><![CDATA[Generic Job Description.]]></description>
-    <recruiternames>
-      <recruitername>Ima Recruiter</recruitername>
-    </recruiternames>
-    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
-  </job>
- </source>
+<?xml version="1.0" encoding="utf-8"?>
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Manisha test job feed (66666)</publisher>
+   <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
+   <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
+   <job>
+      <title><![CDATA[Zombocom Appreciator]]></title>
+      <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
+      <referencenumber><![CDATA[66666-1]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html]]></url>
+      <company><![CDATA[Brazen Tehnologies]]></company>
+      <city><![CDATA[Arlington]]></city>
+      <state><![CDATA[VA]]></state>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[22201]]></postalCode>
+      <description><![CDATA[
+         <h1>This is a small description</h1>
+         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
+         <p>Had this been outside a CDATA section, tags should be escaped.<p>
+         <p>&amp; <--- this should be rendered as an amperstand followed by the text 'amp;'.<p>
+      ]]></description>
+      <salary><![CDATA[Non negotiable as in non existing]]></salary>
+      <education><![CDATA[None]]></education>
+      <jobType><![CDATA[Insalubrious]]></jobType>
+      <category><![CDATA[Appreciator]]></category>
+      <experience><![CDATA[None]]></experience>
+      <recruiterEmails>
+         <recruiterEmail><![CDATA[mike.weiner+1111-02@brazen.com]]></recruiterEmail>
+      </recruiterEmails>
+   </job>
+</source>
