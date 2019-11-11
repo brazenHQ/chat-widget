@@ -4,9 +4,9 @@
    <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
    <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
    <job>
-      <title><![CDATA[Zombocom Appreciator]]></title>
+      <title><![CDATA[Test Job for 23684]]></title>
       <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[11112019-01]]></referencenumber>
+      <referencenumber><![CDATA[111102]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?X=111101]]></url>
       <company><![CDATA[Brazen Tehnologies]]></company>
       <city><![CDATA[Arlington]]></city>
@@ -17,7 +17,6 @@
          <h1>This is a small description</h1>
          <p>HTML tags are allowed here because it is inside a CDATA section.<p>
          <p>Had this been outside a CDATA section, tags should be escaped.<p>
-         <p>&amp; <--- this should be rendered as an amperstand followed by the text 'amp;'.<p>
       ]]></description>
       <salary><![CDATA[Non negotiable as in non existing]]></salary>
       <education><![CDATA[None]]></education>
