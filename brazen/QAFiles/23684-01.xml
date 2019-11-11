@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
-   <publisher>Manisha test job feed (66666)</publisher>
+   <publisher>Brazen QA</publisher>
    <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
    <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
    <job>
       <title><![CDATA[Zombocom Appreciator]]></title>
       <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[66666-1]]></referencenumber>
+      <referencenumber><![CDATA[11111901]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?X=111101]]></url>
       <company><![CDATA[Brazen Tehnologies]]></company>
       <city><![CDATA[Arlington]]></city>
