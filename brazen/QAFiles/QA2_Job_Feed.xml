@@ -2,29 +2,29 @@
 <source xmlns="http://brazen.com/jobs/">
   <publisher>Brazen Technologies</publisher>
   <publisherurl>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative/</publisherurl>
-  <lastbuilddate>Fri, 09 Aug 2019 09:30:30 GMT</lastbuilddate> <!--Tardy build date-->
+  <lastbuilddate>Wed, 13 Nov 2019 10:30:00 ET</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
     <category>Tech</category>
     <city><![CDATA[Burke]]></city>
-    <recruiteremails>mike.weiner+testrecruiter@brazen.com</recruiteremails>
+    <recruiteremails>mike.weiner@brazen.com</recruiteremails>
     <state><![CDATA[VA]]></state>
-    <title>Test Job for 23684</title>
+    <title>Sr. Software Developer (A Name with a Period.)</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>110801</referencenumber>
+    <referencenumber>111301</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=110801]]></url>
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=111301]]></url>
     
     <!-- GENERIC INFO START...-->
-    <date>2019-07-13T12:00:00</date>
+    <date>2019-11-13T12:00:00</date>
     <company><![CDATA[Brazen Technologies]]></company>
     <country><![CDATA[US]]></country>
     <postalcode>22015</postalcode>
     <description><![CDATA[Generic Job Description.]]></description>
     <recruiternames>
-      <recruitername>Test Recruiter</recruitername>
+      <recruitername>Mike Weiner</recruitername>
     </recruiternames>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
