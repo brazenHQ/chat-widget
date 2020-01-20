@@ -11,7 +11,7 @@
       <company><![CDATA[Brazen Technologies]]></company>
       <city><![CDATA[Arlington]]></city>
       <state>![CDATA[Virginia]]</state>
-      <country><![CDATA[US]]></country>
+      <country></country>
       <postalCode><![CDATA[22201]]></postalCode>
       <description><![CDATA[
          <h1>This is a small description</h1>
@@ -22,7 +22,7 @@
       <salary><![CDATA[Negotiable]]></salary>
       <education><![CDATA[None]]></education>
       <jobType><![CDATA[ER Nurse]]></jobType>
-      <category></category>
+      <category><![CDATA[Technical]]</category>
       <experience><![CDATA[None]]></experience>
       <recruiterEmails>
          <recruiterEmail></recruiterEmail>
