@@ -4,9 +4,9 @@
    <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
    <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
    <job>
-      <title><![CDATA[A Great Tech Job]]></title>
+      <title><![CDATA[A New Dev Job]]></title>
       <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[022720-02]]></referencenumber>
+      <referencenumber><![CDATA[022720-03]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=01]]></url>
       <company><![CDATA[Brazen Technologies]]></company>
       <city><![CDATA[Arlington]]></city>
@@ -15,14 +15,11 @@
       <postalCode><![CDATA[22201]]></postalCode>
       <description><![CDATA[
          <h1>This is a small description</h1>
-         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
-         <p>Had this been outside a CDATA section, tags should be escaped.<p>
-         <p>&amp; <--- this should be rendered as an amperstand followed by the text 'amp;'.<p>
       ]]></description>
       <salary><![CDATA[Negotiable]]></salary>
       <education><![CDATA[None]]></education>
-      <jobType><![CDATA[ER Nurse]]></jobType>
-      <category><![CDATA[Nursing]]></category>
+      <jobType><![CDATA[Developer]]></jobType>
+      <category><![CDATA[Dev]]></category>
       <experience><![CDATA[None]]></experience>
       <recruiterEmails>
          <recruiterEmail>mike.weiner+multiaccountuser@gmail.com</recruiterEmail>
