@@ -6,26 +6,21 @@
    <job>
       <title><![CDATA[A Great Tech Job]]></title>
       <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[92802-2]]></referencenumber>
+      <referencenumber><![CDATA[022804]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=01]]></url>
       <company><![CDATA[Brazen Technologies]]></company>
       <city><![CDATA[Arlington]]></city>
       <state>![CDATA[Virginia]]</state>
       <country></country>
       <postalCode><![CDATA[22201]]></postalCode>
-      <description><![CDATA[
-         <h1>This is a small description</h1>
-         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
-         <p>Had this been outside a CDATA section, tags should be escaped.<p>
-         <p>&amp; <--- this should be rendered as an ampersand followed by the text 'amp;'.<p>
-      ]]></description>
+      <description><![CDATA[<h1>This is a small description</h1>]]></description>
       <salary><![CDATA[Negotiable]]></salary>
       <education><![CDATA[None]]></education>
       <jobType><![CDATA[ER Nurse]]></jobType>
       <category><![CDATA[Technical]]</category>
       <experience><![CDATA[None]]></experience>
       <recruiterEmails>
-         <recruiterEmail></recruiterEmail>
+         <recruiterEmail>mike.weiner+multiaccountuser@brazen.com</recruiterEmail>
       </recruiterEmails>
    </job>
 </source>
