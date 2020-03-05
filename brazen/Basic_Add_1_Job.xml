@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Job Rule Testing</publisher>
+   <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
+   <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
+   <job>
+      <title><![CDATA[A Great Tech Job]]></title>
+      <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
+      <referencenumber><![CDATA[030401]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=01]]></url>
+      <company><![CDATA[Brazen Technologies]]></company>
+      <city><![CDATA[Arlington]]></city>
+      <state><![CDATA[VA]]></state>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[22201]]></postalCode>
+      <description><![CDATA[This is the Description of the job. ]]></description>
+      <salary><![CDATA[Negotiable]]></salary>
+      <education><![CDATA[None]]></education>
+      <jobType><![CDATA[Developer]]></jobType>
+      <category><![CDATA[Techie]]></category>
+      <experience><![CDATA[None]]></experience>
+      <recruiterEmails>
+         <recruiterEmail></recruiterEmail>
+      </recruiterEmails>
+   </job>
+</source>
