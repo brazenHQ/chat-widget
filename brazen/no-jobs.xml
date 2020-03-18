@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is a human readable version of the XML file that Brazen can ingest jobs with -->
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Zombocom publishing publisher published</publisher>
+   <publisherurl>https://app-local.t.brazenconnect.com/cc</publisherurl>
+   <lastBuildDate>Wed, 18 Mar 2020 22:05:00 GMT</lastBuildDate>
+
+   <!--
+     - This is an example of a feed with no jobs.
+     -
+     - For Brazen developers:
+     - You can use this to remove all feed jobs from an account.
+     - Please don't add any job to this file
+     -->
+
+</source>
