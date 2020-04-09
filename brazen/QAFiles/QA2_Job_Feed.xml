@@ -7,12 +7,12 @@
     <!-- UNIQUE FEED INFO-->
     <category>Tech</category>
     <city><![CDATA[Burke]]></city>
-    <recruiteremails>mike.weiner@brazen.com</recruiteremails>
+    <recruiteremails></recruiteremails>
     <state><![CDATA[VA]]></state>
     <title>Sr. Software Developer (A Name with a Period.)</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>111301</referencenumber>
+    <referencenumber>111302</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=111301]]></url>
@@ -24,7 +24,7 @@
     <postalcode>22015</postalcode>
     <description><![CDATA[Generic Job Description.]]></description>
     <recruiternames>
-      <recruitername>Mike Weiner</recruitername>
+      <recruitername></recruitername>
     </recruiternames>
     <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
