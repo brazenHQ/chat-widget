@@ -2,13 +2,13 @@
 <source xmlns="http://brazen.com/jobs/">
   <publisher>Brazen Technologies</publisher>
   <publisherurl>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative/</publisherurl>
-  <lastbuilddate>Tue, 20 Aug 2019 08:30:30 GMT</lastbuilddate> <!--Tardy build date-->
+  <lastbuilddate>MON, 27 Apr 2020 08:30:30 GMT</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
     <category>Technology</category>
     <city><![CDATA[Cheverly]]></city>
     <state><![CDATA[MD]]></state>
-    <title>JOB FEED TEST</title>
+    <title>IRON MAN JOB FEED TEST</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
     <referencenumber>042701</referencenumber>
@@ -17,10 +17,10 @@
     <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=042701]]></url>
     
     <!-- GENERIC INFO START...-->
-    <date>2019-07-13T12:00:00</date>
+    <date>2020-04-27T14:53:00</date>
     <company><![CDATA[Brazen Technologies]]></company>
     <country><![CDATA[US]]></country>
-    <postalcode>22015</postalcode>
+    <postalcode>20785</postalcode>
     <description><![CDATA[Generic Job Description.]]></description>
     <recruiternames>
       <recruitername></recruitername>
