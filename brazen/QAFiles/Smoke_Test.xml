@@ -11,10 +11,10 @@
     <title>IRON MAN JOB FEED TEST</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>042701</referencenumber>
+    <referencenumber>042702</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=042701]]></url>
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=042702]]></url>
     
     <!-- GENERIC INFO START...-->
     <date>2020-04-27T14:53:00</date>
@@ -22,9 +22,10 @@
     <country><![CDATA[US]]></country>
     <postalcode>20785</postalcode>
     <description><![CDATA[Generic Job Description.]]></description>
+    
+    <!-- Recruiter Info -->
     <recruiternames>
       <recruitername></recruitername>
     </recruiternames>
-    <splork>A random element we asked not be included in the feed, but was anyway.  https://bit.ly/2UQRBDw</splork>
   </job>
 </source>
