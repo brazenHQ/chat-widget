@@ -5,10 +5,10 @@
   <lastbuilddate>Tue, 20 Aug 2019 08:30:30 GMT</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
-    <category>Tech</category>
-    <city><![CDATA[Burke]]></city>
-    <state><![CDATA[CA]]></state>
-    <title>Job Feed Job #1</title>
+    <category>Technology</category>
+    <city><![CDATA[Cheverly]]></city>
+    <state><![CDATA[MD]]></state>
+    <title>JOB FEED TEST</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
     <referencenumber>04152001</referencenumber>
