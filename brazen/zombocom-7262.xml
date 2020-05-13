@@ -132,9 +132,7 @@
       <state>VA</state>
       <city>Arlington</city>
       <description>
-         &lt;h1&gt;This is a small description&lt;/h1&gt;
-         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
-         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+         Changed the description of this job.
       </description>
    </job>
 
