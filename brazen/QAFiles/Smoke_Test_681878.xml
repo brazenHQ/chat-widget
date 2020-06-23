@@ -8,20 +8,20 @@
     <category>Technology</category>
     <city><![CDATA[Cheverly]]></city>
     <state><![CDATA[MD]]></state>
-    <title>Ad Hoc Testing Job Feed Test</title>
+    <title>Smoke Test Job Entry</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>062320</referencenumber>
+    <referencenumber>0623201</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=062320]]></url>
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative?x=0623201]]></url>
     
     <!-- GENERIC INFO START...-->
     <date>2020-04-27T14:53:00</date>
     <company><![CDATA[Brazen Technologies]]></company>
     <country><![CDATA[US]]></country>
     <postalcode>20785</postalcode>
-    <description><![CDATA[Generic Job Description.]]></description>
+    <description><![CDATA[Smoke Test Job Description.]]></description>
     
     <!-- Recruiter Info -->
     <recruiternames>
