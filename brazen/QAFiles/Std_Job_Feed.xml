@@ -4,10 +4,10 @@
    <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
    <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
    <job>
-      <title><![CDATA[Link Job Feed Test]]></title>
+      <title><![CDATA[Link Job Feed Test #2]]></title>
       <date><![CDATA[Tue, 23 JUN 2020 13:53:00 ET]]></date>
-      <referencenumber><![CDATA[062320]]></referencenumber>
-      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=062320]]></url>
+      <referencenumber><062301></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=062301]]></url>
       <company><![CDATA[Brazen Technologies]]></company>
       <city><![CDATA[Cheverly]]></city>
       <state><![CDATA[MD]]></state>
