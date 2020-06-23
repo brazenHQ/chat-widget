@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <source xmlns="http://brazen.com/jobs/">
-  <publisher>Brazen Technologies</publisher>
-  <publisherurl>https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative/</publisherurl>
-  <lastbuilddate>Wed, 13 Nov 2019 10:30:00 ET</lastbuilddate> <!--Tardy build date-->
+  <publisher>Brazen Technologies, Inc.</publisher>
+  <publisherurl>https://g.co/kgs/YvssoH</publisherurl>
+  <lastbuilddate>Tue, 23 Jun 2020 13:47:00 ET</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
-    <category>Tech</category>
-    <city><![CDATA[Burke]]></city>
+    <category>Creative</category>
+    <city><![CDATA[Cheverly]]></city>
     <recruiteremails></recruiteremails>
-    <state><![CDATA[VA]]></state>
-    <title>Sr. Software Developer (A Name with a Period.)</title>
+    <state><![CDATA[MD]]></state>
+    <title>Song Writer</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>111302</referencenumber>
+    <referencenumber>062301</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative301?x=111301]]></url>
+    <url><![CDATA[https://g.co/kgs/YvssoH?x=062301]]></url>
     
     <!-- GENERIC INFO START...-->
     <date>2019-11-13T12:00:00</date>
-    <company><![CDATA[Brazen Technologies]]></company>
+    <company><![CDATA[Brazen Technologies, Inc.]]></company>
     <country><![CDATA[US]]></country>
-    <postalcode>22015</postalcode>
-    <description><![CDATA[Generic Job Description.]]></description>
+    <postalcode>20785</postalcode>
+    <description><![CDATA[Just write some songs...its a pretty simple gig.]]></description>
     <recruiternames>
       <recruitername></recruitername>
     </recruiternames>
