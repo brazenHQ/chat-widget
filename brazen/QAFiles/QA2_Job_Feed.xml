@@ -9,13 +9,13 @@
     <city><![CDATA[Cheverly]]></city>
     <recruiteremails></recruiteremails>
     <state><![CDATA[MD]]></state>
-    <title>Song Writer</title>
+    <title>Job Feed Job</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>062301</referencenumber>
+    <referencenumber>072420</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
-    <url><![CDATA[https://g.co/kgs/YvssoH?x=062301]]></url>
+    <url><![CDATA[https://g.co/kgs/YvssoH?x=072420]]></url>
     
     <!-- GENERIC INFO START...-->
     <date>2019-11-13T12:00:00</date>
