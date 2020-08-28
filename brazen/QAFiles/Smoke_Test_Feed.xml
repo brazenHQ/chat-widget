@@ -11,10 +11,10 @@
     <title>Smoke Test Job Entry</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>0623201</referencenumber>
+    <referencenumber>082820</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
-    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative?x=0623201]]></url>
+    <url><![CDATA[https://brazen.theresumator.com/apply/01lat8jChI/Business-Development-Representative?x=082820]]></url>
     
     <!-- GENERIC INFO START...-->
     <date>2020-04-27T14:53:00</date>
