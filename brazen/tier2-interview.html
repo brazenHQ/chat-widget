@@ -4,38 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Plugin Testing Page</title>
-    <script>
-        // Polyfill for append in IE11 (https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append)
-        // Source: https://github.com/jserz/js_piece/blob/master/DOM/ParentNode/append()/append().md
-        (function (arr) {
-          arr.forEach(function (item) {
-            if (item.hasOwnProperty('append')) {
-              return;
-            }
-            Object.defineProperty(item, 'append', {
-              configurable: true,
-              enumerable: true,
-              writable: true,
-              value: function append() {
-                var argArr = Array.prototype.slice.call(arguments),
-                  docFrag = document.createDocumentFragment();
-
-                argArr.forEach(function (argItem) {
-                  var isNode = argItem instanceof Node;
-                  docFrag.appendChild(isNode ? argItem : document.createTextNode(String(argItem)));
-                });
-
-                this.appendChild(docFrag);
-              }
-            });
-          });
-        })([Element.prototype, Document.prototype, DocumentFragment.prototype]);
-        
-        // this helps debug the messages being sent between the iframe and the loader.js
-        addEventListener("message", function(event) {
-            console.debug("postMessage received by '" + document.title + "' from '" + event.origin + "' with data:", event.data);
-        });
-    </script>
     <style>
         body {
             display: flex;
@@ -55,14 +23,12 @@
             vertical-align: top;
         }
         
-        #zomboicon .linear {
-          animation-duration: 1s;
-          animation-name: rotate-linear;
+        #zomboicon.linear {
+          animation: 60s linear 0s infinite rotate-linear;
         }
         
-        #zomboicon .discrete {
-          animation-duration: 1s;
-          animation-name: rotate-discrete;        
+        #zomboicon.discrete {
+          animation-duration: 60s linear 0s infinite rotate-discrete;
         }
 
         #config form:first-child {
@@ -254,9 +220,9 @@
 
 
     if (Math.floor(Math.random() * Math.floor(2)) === 0) {
-        document.getElementById('spinner').classList.add("linear");
+        document.getElementById('zomboicon').classList.add("linear");
     } else {
-        document.getElementById('spinner').classList.add("discrete");
+        document.getElementById('zomboicon').classList.add("discrete");
     }
 
     function getQueryParams()
