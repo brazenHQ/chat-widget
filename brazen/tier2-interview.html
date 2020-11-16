@@ -131,7 +131,7 @@
       let range = document.createRange();
       range.setStart(scriptHolder, 0);
 
-      scriptInput.appendChild(
+      scriptHolder.appendChild(
 	  range.createContextualFragment(scriptInput.value)
       );
   }
