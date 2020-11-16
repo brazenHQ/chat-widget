@@ -117,26 +117,21 @@
     }
 
 </style>
-
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
 <script>
-  function runYouMuppet() {
-      brazenTechnologies = undefined;
-      let scriptHolder = document.getElementById('scriptHolder');
-      scriptHolder.innerHTML = '';
-
-      let scriptInput = document.getElementById('scriptInput');
-
-      let range = document.createRange();
-      range.setStart(scriptHolder, 0);
-
-      scriptHolder.appendChild(
-      range.createContextualFragment(scriptInput.value)
-      );
-      }
-
+        
+    function getQueryParams()
+    {
+        var queryParams = {};
+        window.location.search.replace(
+                /[?&]+([^=&]+)=([^&]*)/gi,
+                function (str, key, value) {
+                    queryParams[key] = value;
+                }
+        );
+        return queryParams;
+    }
 </script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 </head>
 <body>
@@ -214,6 +209,7 @@
 </div>
 </div>
 <div id="sidenav">
+        <form method="GET" action="#">
 <textarea id="scriptInput" rows="10" cols="50">
 <script href="https://app-qa.t.brazenconnect.com/js/brazen-chat-widget-loader.js"
     id="brazenChatWidgetScript"
@@ -221,11 +217,24 @@
     mode="JOB"
     job-code="3380216">
 </textarea><br />
-<button onclick="runYouMuppet()">Submit script</button>
+<button type="submit">Submit script</button>
+        </form>
 <div id="scriptHolder"/>
 </div>
 
+<script>
+      let scriptInput = getQueryParams['q'];
+
+      let range = document.createRange();
+      range.setStart(scriptHolder, 0);
+
+      scriptHolder.appendChild(
+      range.createContextualFragment(scriptInput)
+      );
+      }
+
 </script>
+
 </body>
 
 </html>
