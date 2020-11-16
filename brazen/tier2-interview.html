@@ -120,23 +120,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-<script>	
-  function runYouMuppet() {
-      brazenTechnologies = undefined;
-      let scriptHolder = document.getElementById('scriptHolder');
-      scriptHolder.innerHTML = '';
-
-      let scriptInput = document.getElementById('scriptInput');
-
-      let range = document.createRange();
-      range.setStart(scriptHolder, 0);
-
-      scriptHolder.appendChild(
-	  range.createContextualFragment(scriptInput.value)
-      );
-  }
-
-  </script>
 
 </head>
 <body>
@@ -213,18 +196,12 @@
         </div>
     </div>
 </div>
-<div id="sidenav">
-  <textarea id="scriptInput" rows="10" cols="50">
+
 <script href="https://app-qa.t.brazenconnect.com/js/brazen-chat-widget-loader.js" 
 	id="brazenChatWidgetScript" 
 	salesforce-id="7262"
 	mode="JOB"
         job-code="3380216">
-  </textarea><br />
-  <button onclick="runYouMuppet()">Submit script</button>
-  <div id="scriptHolder"/>
-</div>
-
 </script>
 </body>
 
