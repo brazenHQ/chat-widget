@@ -226,12 +226,13 @@
       let scriptInput = getQueryParams['q'];
 
       let range = document.createRange();
-      range.setStart(scriptHolder, 0);
+
+        let scriptHolder = document.getElementById('scriptHolder');
+        range.setStart(scriptHolder, 0);
 
       scriptHolder.appendChild(
       range.createContextualFragment(scriptInput)
       );
-      }
 
 </script>
 
