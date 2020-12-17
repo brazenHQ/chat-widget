@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Analytics Cross-Domain Test Page</title>
+
+    <script>
+        function loadAnalytics()
+        {
+            let accountId = document.getElementById('accountId').value
+            let clientId = document.getElementById('clientId').value
+
+            let analytics = document.querySelector('input[name="analytics"]:checked').value;
+            if (analytics === 'ga')
+            {
+                initializeAnalyticsJs(accountId, clientId);
+            }
+            else
+            {
+                initializeGTag(accountId, clientId);
+            }
+
+            showEventLinkSection();
+        }
+
+        function initializeAnalyticsJs(accountId, clientId)
+        {
+            insertAnalyticsScript();
+
+            ga('create', accountId, 'auto', {'clientId': clientId});
+            ga('require', 'linker')
+            ga('linker:autoLink', ['brazenconnect.com']);
+            ga('send', 'pageview');
+        }
+
+        function initializeGTag(accountId, clientId)
+        {
+            insertGTagScript();
+
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag()
+            {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', accountId, {
+                'linker': {
+                    'domains': ['brazenconnect.com']
+                },
+                'client_id': clientId
+            });
+        }
+
+        function insertAnalyticsScript()
+        {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        }
+
+        function insertGTagScript()
+        {
+            var gtagScript = document.createElement('script');
+            gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID";
+            document.head.appendChild(gtagScript);
+        }
+
+        function showEventLinkSection()
+        {
+            document.getElementById('loadAnalyticsButton').disabled = true;
+
+            let linkDiv = document.getElementById('linkDiv');
+            linkDiv.hidden = false;
+        }
+
+        function createLink()
+        {
+            let link = document.getElementById('linkInput').value;
+
+            if (link === '')
+            {
+                return;
+            }
+
+            let aTag = document.createElement('a');
+            aTag.href = link;
+            aTag.innerText = link;
+
+            document.body.appendChild(document.createElement('br'));
+            document.body.appendChild(aTag);
+        }
+    </script>
+</head>
+<body>
+<h1>Google Analytics Cross-Domain Test Page</h1>
+<h2>Select analytics library</h2>
+<form onsubmit="event.preventDefault(); loadAnalytics()">
+    <div>
+        <input id="gaInput" type="radio" name="analytics" value="ga" checked/>
+        <label for="gaInput">analytics.js</label>
+        <input id="gtagInput" type="radio" name="analytics" value="gtag"/>
+        <label for="gtagInput">gtag.js</label>
+    </div>
+    <div>
+        <label for="accountId">Account ID:</label>
+        <input id="accountId" type="text" value="UA-45668794-1"/>
+    </div>
+    <div>
+        <label for="clientId">Client ID:</label>
+        <input id="clientId" type="text" value="GA-Test"/>
+    </div>
+    <div>
+        <button id="loadAnalyticsButton" type="submit">Load Analytics</button>
+    </div>
+</form>
+
+<div id="linkDiv" hidden>
+    <hr/>
+    <h2>Enter URL for event page</h2>
+    <label for="linkInput">Event URL:</label>
+    <input id="linkInput" type="text" size="80" placeholder="Insert URL here"/>
+    <br/>
+    <button onclick="createLink()">Create Link</button>
+</div>
+</body>
+</html>
