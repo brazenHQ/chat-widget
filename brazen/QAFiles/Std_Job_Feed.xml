@@ -23,4 +23,24 @@
          <recruiterEmail>mike.weiner@brazen.com</recruiterEmail>
       </recruiterEmails>
    </job>
+   <job>
+      <title><![CDATA[Link Job Feed Test #3]]></title>
+      <date><![CDATA[Tue, 23 JUN 2020 13:53:00 ET]]></date>
+      <referencenumber><062301></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=010521]]></url>
+      <company><![CDATA[Brazen Technologies]]></company>
+      <city><![CDATA[Cheverly]]></city>
+      <state><![CDATA[MD]]></state>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[20785]]></postalCode>
+      <description><![CDATA[<h1>This is a job Description entry.</h1>]]></description>
+      <salary><![CDATA[$0.10 / hour]]></salary>
+      <education><![CDATA[None]]></education>
+      <jobType><![CDATA[Developer]]></jobType>
+      <category><![CDATA[Dev]]></category>
+      <experience><![CDATA[None]]></experience>
+      <recruiterEmails>
+         <recruiterEmail>mike.weiner@brazen.com</recruiterEmail>
+      </recruiterEmails>
+   </job>
 </source>
