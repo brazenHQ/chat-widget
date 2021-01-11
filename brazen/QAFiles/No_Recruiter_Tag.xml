@@ -4,7 +4,7 @@
    <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
    <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
    <job>
-      <title><![CDATA[Link Job Feed Test #2]]></title>
+      <title><![CDATA[Link Job Feed Test #3]]></title>
       <date><![CDATA[Tue, 23 JUN 2020 13:53:00 ET]]></date>
       <referencenumber><062301></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=062301]]></url>
@@ -13,7 +13,7 @@
       <state><![CDATA[MD]]></state>
       <country><![CDATA[US]]></country>
       <postalCode><![CDATA[20785]]></postalCode>
-      <description><![CDATA[<h1>We're all looking at this ... FOUR of us in QA!</h1>]]></description>
+      <description><![CDATA[<h1Job Description field.</h1>]]></description>
       <salary><![CDATA[$0.10 / hour]]></salary>
       <education><![CDATA[None]]></education>
       <jobType><![CDATA[Developer]]></jobType>
