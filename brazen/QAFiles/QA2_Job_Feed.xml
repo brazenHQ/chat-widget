@@ -2,17 +2,17 @@
 <source xmlns="http://brazen.com/jobs/">
   <publisher>Brazen Technologies, Inc.</publisher>
   <publisherurl>https://g.co/kgs/YvssoH</publisherurl>
-  <lastbuilddate>Tue, 23 Jun 2020 13:47:00 ET</lastbuilddate> <!--Tardy build date-->
+  <lastbuilddate>Thu, 25 Feb 2021 13:47:00 ET</lastbuilddate> <!--Tardy build date-->
   <job>
     <!-- UNIQUE FEED INFO-->
     <category>Creative</category>
     <city><![CDATA[Cheverly]]></city>
     <recruiteremails></recruiteremails>
     <state><![CDATA[MD]]></state>
-    <title>Job Feed Job</title>
+    <title>Job Feed Job for Training</title>
 
     <!-- Unique Ref # for each Job. This should match the x value for the URL-->
-    <referencenumber>072420</referencenumber>
+    <referencenumber>022521</referencenumber>
     
     <!-- Change no information below this line for Job Rules/Job Feed testing -->
     <url><![CDATA[https://g.co/kgs/YvssoH?x=072420]]></url>
