@@ -1,45 +1,25 @@
 <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
-   <publisher>Job Rule Testing</publisher>
+   <publisher>Brazen U</publisher>
    <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
-   <lastBuildDate>Wed, 28 Feb 2019 18:03:01 GMT</lastBuildDate>
+   <lastBuildDate>Wed, 31 Mar 2021 18:00:00 GMT</lastBuildDate>
    <job>
-      <title><![CDATA[Link Job Feed Test #2]]></title>
-      <date><![CDATA[Fri, 22 JAN 2021 13:53:00 ET]]></date>
-      <referencenumber><062301></referencenumber>
+      <title><![CDATA[Brazen U Job #1]]></title>
+      <date><![CDATA[Wed, 31 MAR 2021 18:00:00 ET]]></date>
+      <referencenumber><033121></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=062301]]></url>
       <company><![CDATA[Brazen Technologies]]></company>
       <city><![CDATA[Cheverly]]></city>
       <state><![CDATA[MD]]></state>
       <country><![CDATA[US]]></country>
       <postalCode><![CDATA[20785]]></postalCode>
-      <description><![CDATA[<h1>We're all looking at this ... FOUR of us in QA!</h1>]]></description>
+      <description><![CDATA[<h1>This is a sample job for Brazen Univeristy via the Job Feed.</h1>]]></description>
       <salary><![CDATA[$15.00 / hour]]></salary>
       <education><![CDATA[None]]></education>
-      <jobType><![CDATA[Developer]]></jobType>
-      <category><![CDATA[Dev]]></category>
+      <jobType><![CDATA[Trainer]]></jobType>
+      <category><![CDATA[BU]]></category>
       <experience><![CDATA[None]]></experience>
       <recruiterEmails>
          <recruiterEmail>mike.weiner@brazen.com</recruiterEmail>
       </recruiterEmails>
    </job>
-   <job>
-      <title><![CDATA[Link Job Feed Test #3]]></title>
-      <date><![CDATA[Tue, 23 JUN 2020 13:53:00 ET]]></date>
-      <referencenumber><062301></referencenumber>
-      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?x=012121]]></url>
-      <company><![CDATA[Brazen Technologies]]></company>
-      <city><![CDATA[Cheverly]]></city>
-      <state><![CDATA[MD]]></state>
-      <country><![CDATA[US]]></country>
-      <postalCode><![CDATA[20785]]></postalCode>
-      <description><![CDATA[<h1>This is a job Description entry.</h1>]]></description>
-      <salary><![CDATA[$0.10 / hour]]></salary>
-      <education><![CDATA[None]]></education>
-      <jobType><![CDATA[Developer]]></jobType>
-      <category><![CDATA[Dev]]></category>
-      <experience><![CDATA[None]]></experience>
-      <recruiterEmails>
-         <recruiterEmail>mike.weiner@brazen.com</recruiterEmail>
-      </recruiterEmails>
-   </job> 
 </source>
