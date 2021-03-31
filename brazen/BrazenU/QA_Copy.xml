@@ -28,7 +28,7 @@
          <p>Had this been outside a CDATA section, tags should be escaped.<p>
          <p>&amp; < --- this should be rendered as an amperstand followed by the text 'amp;'.<p>
       ]]></description>
-      <salary><![CDATA[Non negotiable as in non existing]]></salary>
+      <salary><![CDATA[Negotiable]]></salary>
       <education><![CDATA[None]]></education>
       <jobType><![CDATA[Internal]]></jobType>
       <category><![CDATA[Training]]></category>
