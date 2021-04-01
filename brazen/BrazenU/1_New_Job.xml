@@ -13,10 +13,10 @@
      - You can add more below this one and delete any of those.
      -->
    <job>
-      <title><![CDATA[Brazen Trainer]]></title>
+      <title><![CDATA[Brazen Trainer (BT01)]]></title>
       <date><![CDATA[Wed, 31 Mar 2021 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[033121BU3]]></referencenumber>
-      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=033121BU3]]></url>
+      <referencenumber><![CDATA[BUJOB1]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=BUJOB1]]></url>
       <company><![CDATA[Brazen]]></company>
       <city><![CDATA[Arlington]]></city>
       <state><![CDATA[VA]]></state>
