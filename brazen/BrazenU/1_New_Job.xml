@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- this is a human readable version of the XML file that Brazen can ingest jobs with -->
+<!-- t      his is a human readable version of the XML file that Brazen can ingest jobs with -->
 
       <!-- ***** SOURCE ***** -->
 <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
 
       <!-- ***** PUBLISHER ***** -->
-   <publisher>Brazen Publishing</publisher>
+      <publisher>
+            Brazen Publishing
+      </publisher>
 
-      <!-- ***** PUBLISHER URL ***** -->
-   <publisherurl>https://app-local.t.brazenconnect.com/cc</publisherurl>
+      <!-- ***** PUBLISHER URL ***** -->\
+      <publisherurl>
+         https://app-local.t.brazenconnect.com/cc
+      </publisherurl>
 
       <!-- ***** LAST BUILD DATE ***** -->
-   <lastBuildDate>Mon, 25 Feb 2019 18:03:02 GMT</lastBuildDate>
+      <lastBuildDate>
+         Mon, 25 Feb 2019 18:03:02 GMT
+      </lastBuildDate>
 
    <!--
 
@@ -20,31 +26,49 @@
      -->
    <job>
       <!-- ***** TITLE ***** -->
-      <title><![CDATA[Brazen Trainer (BT01)]]></title>
+      <title><![CDATA[
+            Brazen Trainer (BT01)
+      ]]></title>
 
       <!-- ***** DATE ***** -->
-      <date><![CDATA[Wed, 31 Mar 2021 18:03:01 GMT]]></date>
+      <date><![CDATA[
+            Wed, 31 Mar 2021 18:03:01 GMT
+      ]]></date>  
 
       <!-- ***** REFERENCE NUMBER ***** -->
-      <referencenumber><![CDATA[BUJOB1]]></referencenumber>
+      <referencenumber><![CDATA[
+            BUJOB1
+      ]]></referencenumber>
 
       <!-- ***** URL ***** -->
-      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=BUJOB1]]></url>
+      <url><![CDATA[
+            https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=BUJOB1
+      ]]></url>
 
       <!-- ***** COMPANY ***** -->
-      <company><![CDATA[Brazen]]></company>
+      <company><![CDATA[
+            Brazen
+      ]]></company>
 
       <!-- ***** CITY ***** -->
-      <city><![CDATA[Arlington]]></city>
+      <city><![CDATA[
+            Arlington
+      ]]></city>
 
       <!-- ***** STATE ***** -->
-      <state><![CDATA[VA]]></state>
+      <state><![CDATA[
+            VA
+      ]]></state>
 
       <!-- ***** COUNTRY ***** -->
-      <country><![CDATA[US]]></country>
+      <country><![CDATA[
+            US
+      ]]></country>
 
       <!-- ***** POSTAL CODE ***** -->
-      <postalCode><![CDATA[22201]]></postalCode>
+      <postalCode><![CDATA[
+            22201
+      ]]></postalCode>
 
       <!-- ***** DESCRIPTION ***** -->
       <description><![CDATA[
@@ -55,19 +79,29 @@
       ]]></description>
 
       <!-- ***** SALARY ***** -->
-      <salary><![CDATA[Negotiable]]></salary>
+      <salary><![CDATA[
+            Negotiable
+      ]]></salary>
 
       <!-- ***** EDUCATION ***** -->
-      <education><![CDATA[None]]></education>
+      <education><![CDATA[
+            None]]>
+      </education>
 
       <!-- ***** JOB TYPE ***** -->
-      <jobType><![CDATA[Internal]]></jobType>
+      <jobType><![CDATA[
+            Internal
+      ]]></jobType>
 
       <!-- ***** CATEGORY ***** -->
-      <category><![CDATA[Training]]></category>
+      <category><![CDATA[
+            Training
+      ]]></category>
 
       <!-- ***** EXPERIENCE ***** -->
-      <experience><![CDATA[None]]></experience>
+      <experience><![CDATA[
+            None
+      ]]></experience>
 
       <!-- ***** RECRUITER INFO ***** -->
       <recruiterEmails>
