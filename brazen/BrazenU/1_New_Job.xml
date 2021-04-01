@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- t      his is a human readable version of the XML file that Brazen can ingest jobs with -->
+<!-- This is a human readable version of the XML file that Brazen can ingest jobs with -->
 
       <!-- ***** SOURCE ***** -->
 <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
