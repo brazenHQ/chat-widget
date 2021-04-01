@@ -27,7 +27,7 @@
    <job>
       <!-- ***** TITLE ***** -->
       <title><![CDATA[
-            Brazen Trainer (BT01)
+            Brazen Trainer (BT02)
       ]]></title>
 
       <!-- ***** DATE ***** -->
@@ -42,7 +42,7 @@
 
       <!-- ***** URL ***** -->
       <url><![CDATA[
-            https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=BUJOB1
+            https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=BUJOB2
       ]]></url>
 
       <!-- ***** COMPANY ***** -->
@@ -85,8 +85,8 @@
 
       <!-- ***** EDUCATION ***** -->
       <education><![CDATA[
-            None]]>
-      </education>
+            None
+      ]]></education>
 
       <!-- ***** JOB TYPE ***** -->
       <jobType><![CDATA[
