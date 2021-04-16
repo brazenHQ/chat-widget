@@ -2,7 +2,7 @@
 <!-- This is a human readable version of the XML file that Brazen can ingest jobs with -->
 
       <!-- ***** SOURCE ***** -->
-<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+      <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
 
       <!-- ***** PUBLISHER ***** -->
       <publisher>
