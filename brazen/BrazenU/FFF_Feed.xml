@@ -3,7 +3,7 @@
 <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
    <publisher>Zombocom publishing publisher published</publisher>
    <publisherurl>https://app-local.t.brazenconnect.com/cc</publisherurl>
-   <lastBuildDate>Mon, 25 Feb 2019 18:03:02 GMT</lastBuildDate>
+   <lastBuildDate>Fri, 16 Apr 2021 18:00:00 GMT</lastBuildDate>
 
    <!--
      - This is an example of all the fields read for a job.
@@ -13,26 +13,26 @@
      - You can add more below this one and delete any of those.
      -->
    <job>
-      <title><![CDATA[Zombocom Appreciator]]></title>
+      <title><![CDATA[Brazen University]]></title>
       <date><![CDATA[Fri, 16 Apr 2021 18:00:00 GMT]]></date>
       <referencenumber><![CDATA[04162101]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=04162101]]></url>
-      <company><![CDATA[Zombocom]]></company>
-      <city><![CDATA[Zombo City]]></city>
-      <state><![CDATA[WY]]></state>
+      <company><![CDATA[Brazen]]></company>
+      <city><![CDATA[Arlington]]></city>
+      <state><![CDATA[VA]]></state>
       <country><![CDATA[US]]></country>
-      <postalCode><![CDATA[46032]]></postalCode>
+      <postalCode><![CDATA[22201]]></postalCode>
       <description><![CDATA[
          <h1>This is a small description</h1>
          <p>HTML tags are allowed here because it is inside a CDATA section.<p>
          <p>Had this been outside a CDATA section, tags should be escaped.<p>
          <p>&amp; < --- this should be rendered as an amperstand followed by the text 'amp;'.<p>
       ]]></description>
-      <salary><![CDATA[Non negotiable as in non existing]]></salary>
+      <salary><![CDATA[Negotiable]]></salary>
       <education><![CDATA[None]]></education>
-      <jobType><![CDATA[Insalubrious]]></jobType>
-      <category><![CDATA[Appreciator]]></category>
-      <experience><![CDATA[None]]></experience>
+      <jobType><![CDATA[Full Time]]></jobType>
+      <category><![CDATA[Brazen U.]]></category>
+      <experience><![CDATA[See Details]]></experience>
       <recruiterEmails>
       </recruiterEmails>
    </job>
