@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is a human readable version of the XML file that Brazen can ingest jobs with -->
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Zombocom publishing publisher published</publisher>
+   <publisherurl>https://app-local.t.brazenconnect.com/cc</publisherurl>
+   <lastBuildDate>Fri, 16 Apr 2021 18:00:00 GMT</lastBuildDate>
+
+   <!--
+     - This is an example of all the fields read for a job.
+     -
+     - For Brazen developers:
+     - Please do not delete this job. You will be punched if you delete this job. You were warned.
+     - You can add more below this one and delete any of those.
+     -->
+   <job>
+      <title><![CDATA[Brazen University 3]]></title>
+      <date><![CDATA[Fri, 16 Apr 2021 18:00:00 GMT]]></date>
+      <referencenumber><![CDATA[04162104]]></referencenumber>
+      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=04162104]]></url>
+      <company><![CDATA[Brazen]]></company>
+      <city><![CDATA[Arlington]]></city>
+      <state><![CDATA[VA]]></state>
+      <country><![CDATA[US]]></country>
+      <postalCode><![CDATA[22201]]></postalCode>
+      <description><![CDATA[
+         <h1>This is a small description</h1>
+         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
+         <p>Had this been outside a CDATA section, tags should be escaped.<p>
+         <p>&amp; < --- this should be rendered as an amperstand followed by the text 'amp;'.<p>
+      ]]></description>
+      <salary><![CDATA[Negotiable]]></salary>
+      <education><![CDATA[None]]></education>
+      <jobType><![CDATA[Full Time]]></jobType>
+      <category><![CDATA[Brazen U.]]></category>
+      <experience><![CDATA[See Details]]></experience>
+      <recruiterEmails>
+      </recruiterEmails>
+   </job>
+</source>
