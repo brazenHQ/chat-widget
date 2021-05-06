@@ -36,31 +36,6 @@
       <recruiterEmails>
       </recruiterEmails>
    </job>
-   
-      <job>
-      <title><![CDATA[New Zombocom Appreciator]]></title>
-      <date><![CDATA[Wed, 13 Feb 2021 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[7262-newMay2021]]></referencenumber>
-      <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=7262-newMay2021]]></url>
-      <company><![CDATA[Zombocom]]></company>
-      <city><![CDATA[Zombo City]]></city>
-      <state><![CDATA[VA]]></state>
-      <country><![CDATA[US]]></country>
-      <postalCode><![CDATA[46032]]></postalCode>
-      <description><![CDATA[
-         <h1>This is a small description</h1>
-         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
-         <p>Had this been outside a CDATA section, tags should be escaped.<p>
-         <p>&amp; < --- this should be rendered as an amperstand followed by the text 'amp;'.<p>
-      ]]></description>
-      <salary><![CDATA[Non negotiable as in non existing]]></salary>
-      <education><![CDATA[None]]></education>
-      <jobType><![CDATA[Insalubrious]]></jobType>
-      <category><![CDATA[Appreciator]]></category>
-      <experience><![CDATA[None]]></experience>
-      <recruiterEmails>
-      </recruiterEmails>
-   </job>
 
    <!--
      - This is a simpler job, with the minimal content required.
@@ -72,7 +47,7 @@
      - When you create a job here, make the id in the URL match the referenceNumber.
      -->
    <job>
-      <title>Zombocom Appreciator USFA - Title Updated May 2021</title>
+      <title>Zombocom Appreciator USFA</title>
       <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
       <referencenumber>7262-2</referencenumber>
       <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=7262-2</url>
