@@ -5,7 +5,7 @@
    <lastBuildDate>Wed, 13 Feb 2019 18:03:01 GMT</lastBuildDate>
 
    <job>
-      <title><![CDATA[Acme Example - Update]]></title>
+      <title><![CDATA[Acme Example - Update1]]></title>
       <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
       <referencenumber><![CDATA[888888-1]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?salesforceId=888888&id=888888-1]]></url>
@@ -20,7 +20,7 @@
       <job>
       <title><![CDATA[Acme Example - New May 2021]]></title>
       <date><![CDATA[Wed, 13 Feb 2019 18:03:01 GMT]]></date>
-      <referencenumber><![CDATA[888888-1]]></referencenumber>
+      <referencenumber><![CDATA[888888-2]]></referencenumber>
       <url><![CDATA[https://brazenhq.github.io/chat-widget/brazen/external-page.html?salesforceId=888888&id=888888-2]]></url>
       <company><![CDATA[Acme]]></company>
       <country><![CDATA[US]]></country>
