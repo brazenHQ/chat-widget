@@ -218,6 +218,9 @@
                     <input type="radio" name="env" value="qa3"/> QA3
                 </div>
                 <div>
+                    <input type="radio" name="env" value="qa5"/> QA5
+                </div>
+                <div>
                     <input type="radio" name="env" value="local"/> Local
                 </div>
             </div>
@@ -401,6 +404,14 @@
         else if (env === 'qa2')
         {
             var url = 'https://app-qa2.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+        }
+        else if (env === 'qa3')
+        {
+            var url = 'https://app-qa3.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+        }
+        else if (env === 'qa5')
+        {
+            var url = 'https://app-qa5.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
         }
         else
         {
