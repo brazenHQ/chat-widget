@@ -9,26 +9,14 @@
             display: flex;
         }
 
-        #fakeJobDesc {
-            flex: 0 0 66%;
+        #jobDesc {
+            flex: 0 0 50%;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 70px;
         }
 
         #sidenav {
             flex: 0 0 33%;
-        }
-
-        #zomboicon {
-            height: 32px;
-            width: 32px;
-            vertical-align: top;
-        }
-        
-        #zomboicon.linear {
-          animation: 60s linear 0s infinite rotate-linear;
-        }
-        
-        #zomboicon.discrete {
-          animation-duration: 60s linear 0s infinite rotate-discrete;
         }
 
         #config form:first-child {
@@ -56,66 +44,6 @@
         div.environment div:first-of-type:before {
             visibility: visible;
         }
-
-@keyframes rotate-linear {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate-discrete {
-  from {
-    transform: rotate(0deg);
-  }
-
-  16% {
-    transform: rotate(0deg);
-  }
-  17% {
-    transform: rotate(60deg);
-  }
-
-  33% {
-    transform: rotate(60deg);
-  }
-  34% {
-    transform: rotate(120deg);
-  }
-
-  49% {
-    transform: rotate(120deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-
-  66% {
-    transform: rotate(180deg);
-  }
-  67% {
-    transform: rotate(240deg);
-  }
-
-  83% {
-    transform: rotate(240deg);
-  }
-  84% {
-    transform: rotate(300deg);
-  }
-
-
-  99% {
-    transform: rotate(300);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
     </style>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -123,79 +51,99 @@
 
 </head>
 <body>
-<div id="fakeJobDesc">
-    <div role="application" tabindex="-1" id="job-area">
-        <h1 role="heading" tabindex="0" style="">
-            <svg version="1.1" id="zomboicon" xmlns="http://www.w3.org/2000/svg"
-                 x="0px" y="0px" width="100px" height="100px"
-                 viewBox="5.02 -3.954 150 150"
-                 enable-background="new 5.02 -3.954 150 150" xml:space="preserve">
-            <g id="spinner" transform="rotate(320, 81, 69)">
-                <g transform="matrix(1.000,0.000,0.000,1.000,-84.150,-14.450)">
-                    <g>
-                        <path opacity="0.122" fill="#00FF00"
-                              d="M152.151,71.151c2.073-0.69,3.888-1.727,5.442-3.107h0.13                             c1.556-1.38,2.807-3.063,3.757-5.047c1.988-4.054,2.247-8.196,0.778-12.423c-1.469-4.228-4.19-7.334-8.164-9.318l-12.312-0.647                             c-4.321,1.381-7.43,4.099-9.331,8.153c-1.987,3.969-2.247,8.111-0.778,12.424c1.383,4.141,4.104,7.204,8.166,9.188                             C143.814,72.358,147.918,72.617,152.151,71.151"/>
-                    </g>
-                    <path fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="round"
-                          stroke-linejoin="round" d="M157.593,68.044h0.13"/>
-                    <g>
-                        <path opacity="0.122" fill="#1A24E6"
-                              d="M175.867,41.386l-5.572,3.235c-1.556,1.38-2.766,3.019-3.63,4.917                             c-1.987,3.969-2.247,8.067-0.777,12.294c1.123,3.192,2.98,5.781,5.572,7.765l2.592,1.553c3.974,1.984,8.078,2.242,12.311,0.776                             c4.234-1.466,7.344-4.185,9.331-8.153l1.685-5.954l-0.907-6.471c-1.468-4.228-4.19-7.289-8.164-9.188                             C184.247,40.177,180.1,39.918,175.867,41.386"/>
-                    </g>
-                    <g>
-                        <path opacity="0.122" fill="#F2FE01"
-                              d="M125.194,69.467c-4.233,1.467-7.343,4.229-9.33,8.283                             c-1.988,3.969-2.246,8.067-0.778,12.294c1.47,4.228,4.233,7.333,8.295,9.318c3.974,1.898,8.078,2.157,12.311,0.776l0.648-0.259                             c3.888-1.552,6.782-4.228,8.683-8.022c1.296-2.676,1.856-5.436,1.685-8.283l-0.907-4.011c-1.296-3.625-3.456-6.385-6.48-8.283                             l-1.815-1.035C133.532,68.26,129.428,68.001,125.194,69.467"/>
-                    </g>
-
-                    <radialGradient id="SVGID_1_" cx="69.1842" cy="587.5672" r="2.5933" fx="67.8876" fy="586.2706"
-                                    gradientTransform="matrix(12.5645 0 0 -12.5182 -705.0267 7439.6914)"
-                                    gradientUnits="userSpaceOnUse">
-                        <stop offset="0" style="stop-color:#FFFFFF"/>
-                        <stop offset="1" style="stop-color:#CCCCCC"/>
-                    </radialGradient>
-                    <path fill="url(#SVGID_1_)"
-                          d="M149.688,77.232c-1.037,1.984-1.598,4.056-1.684,6.213v0.129c-0.174,1.984,0.129,4.012,0.907,6.083                         c1.208,3.623,3.369,6.428,6.479,8.412l1.685,0.906c4.06,1.898,8.207,2.156,12.44,0.776c4.233-1.554,7.301-4.313,9.202-8.283                         c1.037-2.156,1.641-4.313,1.813-6.471l-0.907-5.824c-1.468-4.313-4.233-7.418-8.293-9.316c-3.974-1.984-8.078-2.243-12.312-0.777                         l-0.648,0.259C154.397,70.804,151.503,73.437,149.688,77.232"/>
-                    <path fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="round"
-                          stroke-linejoin="round" d="M148.004,83.445v0.129                         "/>
-                    <g>
-                        <path opacity="0.122" fill="#E75303"
-                              d="M162.388,120.456c0.95-2.07,1.469-4.098,1.555-6.083v-0.128                             c0.086-2.071-0.216-4.142-0.907-6.212c-1.468-4.228-4.19-7.291-8.164-9.189c-3.974-1.984-8.079-2.243-12.312-0.776l-5.572,3.105                             c-1.556,1.382-2.809,3.063-3.759,5.048c-1.987,3.968-2.247,8.067-0.777,12.294c1.468,4.228,4.233,7.334,8.293,9.318                             c3.975,1.984,8.078,2.243,12.312,0.776C157.291,127.143,160.401,124.425,162.388,120.456"/>
-                    </g>
-                    <path fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="round"
-                          stroke-linejoin="round" d="M163.943,114.373                         v-0.128"/>
-                    <g>
-                        <path opacity="0.122" fill="#E90101"
-                              d="M175.996,98.844c-4.319,1.382-7.473,4.099-9.46,8.153                             c-1.123,2.331-1.685,4.703-1.685,7.118c0,1.726,0.345,3.494,1.036,5.307c1.382,4.228,4.104,7.334,8.165,9.318                             c3.974,1.984,8.078,2.242,12.311,0.776c4.234-1.466,7.344-4.228,9.331-8.283c1.987-4.054,2.247-8.196,0.777-12.423                             c-1.209-3.364-3.196-5.995-5.961-7.894l-2.203-1.294C184.247,97.637,180.143,97.378,175.996,98.844"/>
-                    </g>
-                    <g>
-                        <path opacity="0.122" fill="#1B02FD"
-                              d="M183.383,78.656c-1.037,1.984-1.599,4.011-1.685,6.083v0.129                             c-0.173,1.984,0.129,4.054,0.907,6.211c1.468,4.227,4.233,7.334,8.293,9.318c3.974,1.898,8.078,2.158,12.312,0.776                             c4.233-1.466,7.344-4.227,9.331-8.281c1.901-3.97,2.117-8.067,0.648-12.295c-1.47-4.227-4.19-7.333-8.165-9.318                             c-4.061-1.984-8.208-2.243-12.441-0.775C188.35,71.97,185.284,74.687,183.383,78.656"/>
-                    </g>
-                    <path fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="round"
-                          stroke-linejoin="round" d="M181.698,84.739v0.129                         "/>
-                </g>
-            </g>
-            </svg>
-            Zombocom Appreciator
-        </h1>
-        <div id="job-description" tabindex="-1">
-            <p><em>Welcome ... to ZomboCom. This ... is ... ZomboCom. Welcome. This is ZomboCom; welcome ... to
-                ZomboCom. You can do anything at ZomboCom. Anything at all. The only limit is yourself. Welcome ...
-                to ZomboCom.</em></p>
-            <p><em>Welcome ... to ZomboCom. This is ... ZomboCom. Welcome ... to ZomboCom! This is ZomboCom,
-                welcome! Yes ... This ... is ZomboCom.</em></p>
-            <em>This is ZomboCom! And welcome to you, who have come to ZomboCom.</em></p>
-        </div>
+	
+    <div id="jobDesc">
+                           
+        <h1>Tier 2 Support Engineer</h1>
+        
+        <p><span><span><span><span style="color: rgb(0,0,0);">At Brazen, we believe everyone deserves a job they love. Including you. If you’re in search of a job you love, then you've come to the right place. We're a&nbsp;</span></span></span></span><span style="color: rgb(0,0,0);">technology company with a groundbreaking online event platform used by thousands of students, employers, universities, media companies and more around the world.&nbsp;</span><span style="color: rgb(0,0,0);">As we continue to scale our company, we are looking for self-starting customer focused people who thrive in a fast-paced environment, process information quickly and make intelligent decisions. The work is challenging and requires curiosity, team work, and tenacity.&nbsp;</span></p>
+        <h2 id="Tier2SupportEngineer-ThePosition"><span>The Position</span></h2>
+        <p><span><span>As Brazen grows, we are expanding our support team. This role will be our first fully dedicated Tier 2 Support Engineer and will have a tremendous impact on our customer experience and processes.&nbsp;<span>In this role, you<span>&nbsp;will handle complex escalated support issues to resolution in support of our customers.&nbsp;</span></span></span></span></p>
+        <h2 id="Tier2SupportEngineer-Responsibilities"><span style="color: rgb(0,0,0);">Responsibilities</span></h2>
+        <ul>
+           <li><strong>Relationships:</strong> Build strong relationships between internal teams.</li>
+           <li>
+              <strong>Issue Resolution</strong>&nbsp;
+              <ul>
+                 <li>Handle tickets with disciplined, process driven methodologies escalated from Tier 1 and other channels to completion (regardless of the fix): review escalation, investigate and resolve utilizing historical database records and SOPs, document interactions in&nbsp;Jira and ZenDesk, provide timely resolution to customer, and ensure customer satisfaction</li>
+              </ul>
+           </li>
+           <li>
+              <strong>Improve the Product</strong>
+              <ul>
+                 <li>Capture customer insights/feedback and share with our product team</li>
+                 <li>Submit bug reports and alert us to patterns of problems</li>
+              </ul>
+           </li>
+           <li>
+              <strong>Continual learning and improvement</strong><br>
+              <ul>
+                 <li>Continuously update knowledge base to improve processes and ensure known fixes are current.</li>
+                 <li>Update bug and enhancements in Jira</li>
+              </ul>
+           </li>
+           <li>
+              <strong>Prioritization</strong><br>
+              <ul>
+                 <li>Triage issues in regards to deadlines, severity, SLAs, and other context.</li>
+              </ul>
+           </li>
+        </ul>
+        <h2 id="Tier2SupportEngineer-Qualifications"><span style="color: rgb(0,0,0);">Qualifications</span></h2>
         <div>
-            Zombocom is hiring. If you can or want to do anything, anything at all, this position is for you.<br />
-            This is a non-remunerated position, so if you want it, you got it.<br />
-            And you can start right now by going to <a href="https://html5zombo.com/">html5zombo.com</a> and appreciate.
+           <ul>
+              <li><strong>Help Desk:</strong> Minimum of 1-3 years in-the-field experience experience supporting browser-based software (SaaS)&nbsp;</li>
+              <li><strong>Issue Tracking:</strong> Minimum of 1-3 years&nbsp;experience working daily in ticketing system (like Jira or Zen Desk)</li>
+              <li>
+                 <strong>Customer Focus:&nbsp;</strong><br>
+                 <ul>
+                    <li>1+ years of customer service experience&nbsp; and customer service passion</li>
+                    <li>Excited to help Brazen users by resolving complex inquiries and highly sensitive escalations</li>
+                    <li>Heart of a teacher: Patient, thoughtful, encouraging, and calm.</li>
+                 </ul>
+              </li>
+              <li>
+                 <strong>Communication:&nbsp;</strong>
+                 <ul>
+                    <li>Amazing communicator on the phone, chat, Slack, and email</li>
+                    <li>Good listener, quick and clear writer, able to dissect customer descriptions into root problems to begin troubleshooting</li>
+                 </ul>
+              </li>
+              <li><strong>Computer / Technical Literary:</strong>&nbsp;Proficient in basic IT troubleshooting</li>
+              <li><strong>Time Management:</strong> ability to manage time and deciding amongst competing priorities.</li>
+              <li>
+                 <strong>Autonomous, Analytical, and Organized:</strong>
+                 <ul>
+                    <li>Strong analytical, quick learner, problem solving, and organizational skills</li>
+                    <li>Self-starter with the ability to drive resolution to existing and potentially never before encountered issues quickly.</li>
+                    <li>Works well under pressure and in a high-paced environment</li>
+                 </ul>
+              </li>
+           </ul>
+           <h2 id="Tier2SupportEngineer-PreferredQualifications"><span style="color: rgb(0,0,0);">Preferred Qualifications</span></h2>
+           <ul>
+              <li>Tier 2 experience&nbsp;</li>
+              <li>Experience troubleshooting SSO and integrations</li>
+              <li>Customer-facing support for an external&nbsp;<span style="color: rgb(34,34,34);">Business-to-business (</span>B2B<span style="color: rgb(34,34,34);">) context</span></li>
+              <li>SQL experience</li>
+           </ul>
+           <p><span style="color: rgb(0,0,0);">&nbsp;</span></p>
+           <div class="p-rich_text_section"><span style="color: rgb(0,0,0);"><em>Brazen is committed to advancing diversity, equity, and inclusion in hiring, in programming, and in all other aspects of the work we do. Diversity, equity, and inclusion are deeply connected to our mission, our success, and our culture. Some organizational priorities include:&nbsp;</em></span></div>
+           <ul>
+              <li><span style="color: rgb(0,0,0);"><em>Developing policies, procedures and services that uplift and protect to prevent inequalities;&nbsp;</em></span></li>
+              <li><span style="color: rgb(0,0,0);"><em>Building relationships among staff, customers, and supporters that are reflective of our tech community&nbsp;</em></span></li>
+              <li><span style="color: rgb(0,0,0);"><em>Prioritizing the inclusion of diverse communities in internal leadership;&nbsp;</em></span></li>
+              <li><span style="color: rgb(0,0,0);"><em>Fostering a culture of open-mindedness, compassion, and inclusiveness;&nbsp;</em></span></li>
+              <li>
+                 <span style="color: rgb(0,0,0);"><em>Creating and maintaining opportunities for engagement, education, and discourse related to issues of equity, diversity, and inclusion</em></span></p>
+              </li>
+           </ul>
+           <p class="_mce_tagged_br"><span style="color: rgb(0,0,0);"><em>Brazen is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment. All employment decisions at Brazen are based on business needs, job requirements and individual qualifications, without regard to race, color, religion or belief, national, social or ethnic origin, sex (including pregnancy), age, physical, mental or sensory disability, HIV Status, sexual orientation, gender identity and/or expression, marital, civil union or domestic partnership status, past or present military service, family medical history or genetic information, family or parental status, or any other status protected by the laws or regulations in the locations where we operate. Brazen will not tolerate discrimination or harassment based on any of these characteristics. Brazen encourages applicants of all ages.&nbsp;</em></span></p>
+           <p>&nbsp;</p>
         </div>
-        <div>
-            We at Zombocom appreciate your disposition.
-        </div>
+            
     </div>
-</div>
+
 
 <script src="https://app-qa.t.brazenconnect.com/js/brazen-chat-widget-loader.js" 
 	id="brazenChatWidgetScript" 
