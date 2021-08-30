@@ -224,7 +224,19 @@
                     <input type="radio" name="env" value="qa5"/> QA5
                 </div>
                 <div>
+                    <input type="radio" name="env" value="qa6"/> QA6
+                </div>
+                <div>
+                    <input type="radio" name="env" value="qa7"/> QA7
+                </div>
+                <div>
                     <input type="radio" name="env" value="qa8"/> QA8
+                </div>
+                <div>
+                    <input type="radio" name="env" value="loadtest1"/> loadtest1
+                </div>
+                <div>
+                    <input type="radio" name="env" value="loadtest2"/> loadtest2
                 </div>
                 <div>
                     <input type="radio" name="env" value="local"/> Local
@@ -423,9 +435,25 @@
         {
             var url = 'https://app-qa5.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
         }
+        else if (env === 'qa6')
+        {
+            var url = 'https://app-qa6.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+        }
+        else if (env === 'qa7')
+        {
+            var url = 'https://app-qa7.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+        }
         else if (env === 'qa8')
         {
             var url = 'https://app-qa8.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+        }
+        else if (env === 'loadtest1')
+        {
+            var url = 'https://app-loadtest1.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+        }
+        else if (env === 'loadtest2')
+        {
+            var url = 'https://app-loadtest2.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
         }
         else
         {
