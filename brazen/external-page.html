@@ -241,6 +241,9 @@
                 <div>
                     <input type="radio" name="env" value="local"/> Local
                 </div>
+                <div>
+                    <input type="radio" name="env" value="staging"/> Stage
+                </div>
             </div>
 
             <div class="options">
@@ -454,6 +457,10 @@
         else if (env === 'loadtest2')
         {
             var url = 'https://app-loadtest2.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
+        }
+        else if (env === 'staging')
+        {
+            var url = 'https://app-staging.t.brazenconnect.com/js/brazen-chat-widget-loader.js';
         }
         else
         {
