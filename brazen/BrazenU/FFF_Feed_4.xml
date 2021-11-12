@@ -2,7 +2,7 @@
 <!-- this is a human readable version of the XML file that Brazen can ingest jobs with -->
 <source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
    <publisher>Zombocom publishing publisher published</publisher>
-   <publisherurl>https://app-staging.t.brazenconnect.com/cc</publisherurl>
+   <publisherurl>https://app-local.t.brazenconnect.com/cc</publisherurl>
    <lastBuildDate>Fri, 12 Nov 2021 14:00:00 GMT</lastBuildDate>
 
    <!--
