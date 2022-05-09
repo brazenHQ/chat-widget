@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is a human readable version of the XML file that Brazen can ingest jobs with -->
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Zombocom publishing publisher published</publisher>
+   <publisherurl>https://app-local.t.brazenconnect.com/cc</publisherurl>
+   <lastBuildDate>Mon, 25 Feb 2019 18:03:02 GMT</lastBuildDate>
+
+
+   <!--
+     - This is a simpler job, with the minimal content required.
+     - Notice that it does not use CDATA sections.
+     - Be very careful when doing this because it may have unwanted consequences.
+     -
+     - For Brazen developers:
+     - I'd be pleased if this job is not removed.
+     - When you create a job here, make the id in the URL match the referenceNumber.
+     -->
+   <job>
+      <title>Zombocom Appreciator USFA</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>7262-2</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=7262-2</url>
+      <country>USFA</country>
+      <state>Delaware</state>
+      <city>A City</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+
+      <recruiterEmails/>
+   </job>
+
+   <job>
+      <title>Zombocom Appreciator USA spelled</title>
+      <date>Wed, 13 Feb 2019 18:03:01 GMT</date>
+      <referencenumber>7262-3</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=7262-3</url>
+      <country>USA</country>
+      <state>Alaska</state>
+      <city>Anchorage</city>
+      <description>
+         &lt;h1&gt;This is a small description&lt;/h1&gt;
+         &lt;p&gt;All markup must be escaped here because it is not inside a CDATA section.&lt;p&gt;
+         &lt;p&gt;&amp; &lt; --- this should be rendered as an amperstand.&lt;p&gt;
+      </description>
+   </job>
+</source>
