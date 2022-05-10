@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is a human readable version of the XML file that Brazen can ingest jobs with -->
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Zombocom publishing publisher published</publisher>
+   <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
+   <lastbuilddate>Fri, 16 Apr 2021 18:00:00 GMT</lastbuilddate>
+​
+   <!--
+     - This is an example of all the fields read for a job.
+     -
+     - For Brazen developers:
+     - Please do not delete this job. You will be punched if you delete this job. You were warned.
+     - You can add more below this one and delete any of those.
+     -->
+   <job>
+      <title>1TestJobFeed - Job1</title>
+      <date>Fri, 1 May 2022 18:00:00 GMT</date>
+      <referencenumber>anna-111</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=anna-111</url>
+      <company>AnnaTest</company>
+      <city>Boston</city>
+      <state>AB</state>
+      <country>US</country>
+      <postalcode>22193</postalcode>
+      <description>This is a small description</description>
+      <salary>99999</salary>
+      <jobtype>Full Time</jobtype>
+      <experience>a lot of</experience>
+      <recruiterEmails>
+         <recruiterEmail>anna.vaskovska+jobfeed1@brazen.com</recruiterEmail>
+      </recruiterEmails>
+      <recruiternames>
+         <recruitername>Useful Brazen</recruitername>
+      </recruiternames>
+   </job>
+​
+   <job>
+      <title>2TestJobFeed - Job2</title>
+      <date>Fri, 1 May 2022 18:00:00 GMT</date>
+      <referencenumber>anna-222></referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=anna-222</url>
+      <company>AnnaTest</company>
+      <city>Boston</city>
+      <state>AB</state>
+      <country>US</country>
+      <postalcode>22193</postalcode>
+      <description>description here</description>
+      <salary>111111</salary>
+      <experience>a lot of</experience>
+      <education>None</education>
+      <jobtype>Full Time</jobtype>
+      <recruiternames>
+         <recruitername>Usefull Brazenn</recruitername>
+      </recruiternames>
+   </job>
+​
+   <job>
+      <title>3TestJobFeed - Job3</title>
+      <date>Fri, 1 May 2022 18:00:00 GMT</date>
+      <referencenumber>anna-333</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=anna-333</url>
+      <company>AnnaTest</company>
+      <city>Boston</city>
+      <state>AB</state>
+      <country>US</country>
+      <postalcode>22193</postalcode>
+      <salary>88888</salary>
+      <description>
+         <h1>This is a small description</h1>
+         <p>HTML tags are allowed here because it is inside a CDATA section.<p>
+         <p>Had this been outside a CDATA section, tags should be escaped.<p>
+         <p>&amp; < --- this should be rendered as an amperstand followed by the text 'amp;'.
+      </description>
+      <experience>a lot of</experience>
+      <jobtype>Full Time</jobtype>
+      <recruiternames>
+         <recruitername>Useful Brazenite</recruitername>
+      </recruiternames>
+   </job>
+​
+   <job>
+      <title>4TestJobFeed - Job4</title>
+      <date>Fri, 1 May 2022 18:00:00 GMT</date>
+      <referencenumber>anna-444</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=anna-444</url>
+      <company>AnnaTest</company>
+      <city>Boston</city>
+      <state>AB</state>
+      <country>US</country>
+      <postalcode>22193</postalcode>
+      <description>This is a small description</description>
+      <salary>44444</salary>
+      <jobtype>Full Time</jobtype>
+      <experience>a lot of</experience>
+      <recruiterEmails>
+         <recruiterEmail>anna.vaskovska+jobfeed4@brazen.com</recruiterEmail>
+      </recruiterEmails>
+   </job>
+</source>
