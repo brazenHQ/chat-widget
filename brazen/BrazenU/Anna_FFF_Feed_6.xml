@@ -36,8 +36,8 @@
       <recruiterEmails>
           <recruiterEmail>anna@brazen.com</recruiterEmail>
       </recruiterEmails>
-      <recruiterNames>
-        <recruiterName>Anna V</recruiterName>  
-       </recruiterNames>
+      <recruiternames>
+        <recruitername>Anna V</recruitername>
+       </recruiternames>
    </job>
 </source>
