@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is a human readable version of the XML file that Brazen can ingest jobs with -->
+<source noNamespaceSchemaLocation="https://app.brazenconnect.com/xml/brazenJobFeed.xsd">
+   <publisher>Zombocom publishing publisher published</publisher>
+   <publisherurl>https://app-qa.t.brazenconnect.com/cc</publisherurl>
+   <lastbuilddate>Fri, 16 Apr 2021 18:00:00 GMT</lastbuilddate>
+​
+   <!--
+     - This is an example of all the fields read for a job.
+     -
+     - For Brazen developers:
+     - Please do not delete this job. You will be punched if you delete this job. You were warned.
+     - You can add more below this one and delete any of those.
+     -->
+   <job>
+      <title>1TestJobFeed - Job1</title>
+      <date>Fri, 1 May 2022 18:00:00 GMT</date>
+      <referencenumber>anna-111</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=anna-111</url>
+      <company>AnnaTest</company>
+      <city>Boston</city>
+      <state>AB</state>
+      <country>US</country>
+      <postalcode>22193</postalcode>
+      <description>This is a small description</description>
+      <salary>99999</salary>
+      <jobtype>Full Time</jobtype>
+      <recruiteremails>anna.vaskovska+jobfeed1@brazen.com, anna.vaskovska+jobfeed11@brazen.com</recruiteremails>
+   </job>
+​
+   <job>
+      <title>2TestJobFeed - Job2</title>
+      <date>Fri, 1 May 2022 18:00:00 GMT</date>
+      <referencenumber>anna-222></referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=anna-222</url>
+      <company>AnnaTest</company>
+      <city>Boston</city>
+      <state>AB</state>
+      <country>US</country>
+      <postalcode>22193</postalcode>
+      <description>description here</description>
+      <salary>111111</salary>
+      <education>None</education>
+      <jobtype>Full Time</jobtype>
+      <recruiteremails>anna.vaskovska+jobfeed2@brazen.com</recruiteremails>
+   </job>
+​
+   <job>
+      <title>3TestJobFeed - Job3</title>
+      <date>Fri, 1 May 2022 18:00:00 GMT</date>
+      <referencenumber>anna-333</referencenumber>
+      <url>https://brazenhq.github.io/chat-widget/brazen/external-page.html?referenceNumber=anna-333</url>
+      <company>AnnaTest</company>
+      <city>Boston</city>
+      <state>AB</state>
+      <country>US</country>
+      <postalcode>22193</postalcode>
+      <salary>88888</salary>
+      <jobtype>Full Time</jobtype>
+      <recruiteremails>anna.vaskovska+jobfeed3@brazen.com</recruiteremails>
+   </job>
+</source>
