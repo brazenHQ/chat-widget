@@ -1,0 +1,13 @@
+<html>
+
+<button onclick="oidcTest()">OIDC test</button>
+
+<script>
+    function oidcTest()
+    {
+        fetch("https://app-qa.t.brazenconnect.com/sso/oauth/initiate?provider=Google&redirect_url=https://brazenhq.github.io/chat-widget/brazen/external-page.html", {
+            method: "GET" // default, so we can ignore
+        })
+    }
+</script>
+</html>
